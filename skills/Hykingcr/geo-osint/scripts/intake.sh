@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# geo-osint wrapper: intake.sh
+# Delegates to geo-sleuth intake.py via uv run
+# shellcheck disable=SC1091
+source "$(cd "$(dirname "${BASH_SOURCE[0]}")/../../config" && pwd)/paths.sh"
+GEO_SLEUTH_ROOT="$OMP_REPOS_ROOT/geo-sleuth"
+export GEO_SLEUTH_ROOT
+exec uv run "$GEO_SLEUTH_ROOT/skills/geo-sleuth/scripts/intake.py" "$@"

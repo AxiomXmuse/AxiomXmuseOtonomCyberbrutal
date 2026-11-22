@@ -1,0 +1,36 @@
+# Verified false positives only — example / placeholder tokens in skill docs.
+# Reviewed 2026-11-22: redacted Bearer examples, RFC6455 sample nonce, example JWTs,
+# $TOKEN variables and code referencing variables — no real credential is ignored.
+# New secrets are still flagged. Do not add fingerprints blindly.
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:101
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:107
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:113
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:119
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:128
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:134
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:140
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:149
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:155
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:161
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:57
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:61
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:76
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:82
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-header:87
+skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md:curl-auth-user:61
+skills/020-web-hacking-extreme/07-web-security/exploiting-template-injection-vulnerabilities/SKILL.md:curl-auth-user:122
+skills/020-web-hacking-extreme/07-web-security/exploiting-websocket-vulnerabilities/SKILL.md:generic-api-key:143
+skills/020-web-hacking-extreme/07-web-security/exploiting-websocket-vulnerabilities/SKILL.md:generic-api-key:333
+skills/020-web-hacking-extreme/07-web-security/exploiting-websocket-vulnerabilities/SKILL.md:generic-api-key:61
+skills/020-web-hacking-extreme/07-web-security/exploiting-websocket-vulnerabilities/SKILL.md:generic-api-key:72
+skills/020-web-hacking-extreme/07-web-security/exploiting-websocket-vulnerabilities/scripts/agent.py:generic-api-key:35
+skills/020-web-hacking-extreme/07-web-security/exploiting-websocket-vulnerabilities/scripts/agent.py:generic-api-key:57
+skills/020-web-hacking-extreme/07-web-security/testing-api-security-with-owasp-top-10/SKILL.md:curl-auth-user:58
+skills/020-web-hacking-extreme/07-web-security/testing-api-security-with-owasp-top-10/SKILL.md:curl-auth-user:98
+skills/020-web-hacking-extreme/07-web-security/testing-websocket-api-security/scripts/agent.py:generic-api-key:157
+skills/020-web-hacking-extreme/10-adv-recon/performing-open-source-intelligence-gathering/references/workflows.md:curl-auth-user:105
+skills/020-web-hacking-extreme/12-red-team-web/performing-phishing-simulation-with-gophish/scripts/process.py:generic-api-key:468
+skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-broken-access-control/SKILL.md:curl-auth-header:236
+skills/020-web-hacking-extreme/14-exploit-arsenal/testing-websocket-api-security/scripts/agent.py:generic-api-key:157
+skills/020-web-hacking-extreme/15-threat-intel/building-threat-intelligence-platform/references/api-reference.md:curl-auth-header:64
+skills/Hykingcr/burpsuite-cli/SKILL.md:curl-auth-user:31

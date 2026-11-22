@@ -1,0 +1,307 @@
+# Skills Index — AxMoTonomcyber
+
+Generated from the skill files in this repo. 300 SKILL.md files, 301 agent.py scripts.
+
+Use a skill only against targets you are authorized to test, in a lab or under a
+written scope. See SECURITY.md and SCOPE.md.
+
+- `skills/020-web-hacking-extreme/07-web-security/auditing-foundry-smart-contract-security/SKILL.md` — Auditing Foundry Smart Contract Security
+- `skills/020-web-hacking-extreme/07-web-security/bypassing-authentication-with-forced-browsing/SKILL.md` — Bypassing Authentication with Forced Browsing
+- `skills/020-web-hacking-extreme/07-web-security/conducting-api-security-testing/SKILL.md` — Conducting API Security Testing
+- `skills/020-web-hacking-extreme/07-web-security/detecting-api-enumeration-attacks/SKILL.md` — Detecting API Enumeration Attacks
+- `skills/020-web-hacking-extreme/07-web-security/detecting-broken-object-property-level-authorization/SKILL.md` — Detecting Broken Object Property Level Authorization
+- `skills/020-web-hacking-extreme/07-web-security/detecting-shadow-api-endpoints/SKILL.md` — Detecting Shadow API Endpoints
+- `skills/020-web-hacking-extreme/07-web-security/detecting-sql-injection-via-waf-logs/SKILL.md` — Detecting SQL Injection via WAF Logs
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-api-injection-vulnerabilities/SKILL.md` — Exploiting API Injection Vulnerabilities
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-broken-function-level-authorization/SKILL.md` — Exploiting Broken Function Level Authorization
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-excessive-data-exposure-in-api/SKILL.md` — Exploiting Excessive Data Exposure in API
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-http-request-smuggling/SKILL.md` — Exploiting HTTP Request Smuggling
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-idor-vulnerabilities/SKILL.md` — Exploiting IDOR Vulnerabilities
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-insecure-deserialization/SKILL.md` — Exploiting Insecure Deserialization
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-mass-assignment-in-rest-apis/SKILL.md` — Exploiting Mass Assignment in REST APIs
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-oauth-misconfiguration/SKILL.md` — Exploiting OAuth Misconfiguration
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-prototype-pollution-in-javascript/SKILL.md` — Exploiting Prototype Pollution in JavaScript
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-server-side-request-forgery/SKILL.md` — Exploiting Server-Side Request Forgery
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-sql-injection-vulnerabilities/SKILL.md` — Exploiting SQL Injection Vulnerabilities
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-sql-injection-with-sqlmap/SKILL.md` — Exploiting SQL Injection with sqlmap
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-template-injection-vulnerabilities/SKILL.md` — Exploiting Template Injection Vulnerabilities
+- `skills/020-web-hacking-extreme/07-web-security/exploiting-websocket-vulnerabilities/SKILL.md` — Exploiting WebSocket Vulnerabilities
+- `skills/020-web-hacking-extreme/07-web-security/implementing-api-gateway-security-controls/SKILL.md` — Implementing API Gateway Security Controls
+- `skills/020-web-hacking-extreme/07-web-security/implementing-api-key-security-controls/SKILL.md` — Implementing API Key Security Controls
+- `skills/020-web-hacking-extreme/07-web-security/implementing-api-rate-limiting-and-throttling/SKILL.md` — Implementing API Rate Limiting and Throttling
+- `skills/020-web-hacking-extreme/07-web-security/implementing-api-schema-validation-security/SKILL.md` — Implementing API Schema Validation Security
+- `skills/020-web-hacking-extreme/07-web-security/implementing-api-security-posture-management/SKILL.md` — Implementing API Security Posture Management
+- `skills/020-web-hacking-extreme/07-web-security/implementing-api-security-testing-with-42crunch/SKILL.md` — Implementing API Security Testing with 42Crunch
+- `skills/020-web-hacking-extreme/07-web-security/implementing-api-threat-protection-with-apigee/SKILL.md` — Implementing API Threat Protection with Apigee
+- `skills/020-web-hacking-extreme/07-web-security/implementing-cloud-waf-rules/SKILL.md` — Implementing Cloud WAF Rules
+- `skills/020-web-hacking-extreme/07-web-security/integrating-dast-with-owasp-zap-in-pipeline/SKILL.md` — Integrating DAST with OWASP ZAP in Pipeline
+- `skills/020-web-hacking-extreme/07-web-security/performing-api-fuzzing-with-restler/SKILL.md` — Performing API Fuzzing with RESTler
+- `skills/020-web-hacking-extreme/07-web-security/performing-api-inventory-and-discovery/SKILL.md` — Performing API Inventory and Discovery
+- `skills/020-web-hacking-extreme/07-web-security/performing-api-rate-limiting-bypass/SKILL.md` — Performing API Rate Limiting Bypass
+- `skills/020-web-hacking-extreme/07-web-security/performing-api-security-testing-with-postman/SKILL.md` — Performing API Security Testing with Postman
+- `skills/020-web-hacking-extreme/07-web-security/performing-content-security-policy-bypass/SKILL.md` — Performing Content Security Policy Bypass
+- `skills/020-web-hacking-extreme/07-web-security/performing-graphql-security-assessment/SKILL.md` — Performing GraphQL Security Assessment
+- `skills/020-web-hacking-extreme/07-web-security/performing-security-headers-audit/SKILL.md` — Performing Security Headers Audit
+- `skills/020-web-hacking-extreme/07-web-security/performing-web-application-firewall-bypass/SKILL.md` — Performing Web Application Firewall Bypass
+- `skills/020-web-hacking-extreme/07-web-security/performing-web-application-penetration-test/SKILL.md` — Performing Web Application Penetration Test
+- `skills/020-web-hacking-extreme/07-web-security/performing-web-application-vulnerability-triage/SKILL.md` — Performing Web Application Vulnerability Triage
+- `skills/020-web-hacking-extreme/07-web-security/testing-api-authentication-weaknesses/SKILL.md` — Testing API Authentication Weaknesses
+- `skills/020-web-hacking-extreme/07-web-security/testing-api-security-with-owasp-top-10/SKILL.md` — Testing API Security with OWASP Top 10
+- `skills/020-web-hacking-extreme/07-web-security/testing-jwt-token-security/SKILL.md` — Testing JWT Token Security
+- `skills/020-web-hacking-extreme/07-web-security/testing-oauth2-implementation-flaws/SKILL.md` — Testing OAuth2 Implementation Flaws
+- `skills/020-web-hacking-extreme/07-web-security/testing-websocket-api-security/SKILL.md` — Testing WebSocket API Security
+- `skills/020-web-hacking-extreme/08-cloud-web/auditing-aws-s3-bucket-permissions/SKILL.md` — Auditing AWS S3 Bucket Permissions
+- `skills/020-web-hacking-extreme/08-cloud-web/auditing-azure-active-directory-configuration/SKILL.md` — Auditing Azure Active Directory Configuration
+- `skills/020-web-hacking-extreme/08-cloud-web/auditing-entra-id-with-aadinternals/SKILL.md` — Auditing Entra ID with AADInternals
+- `skills/020-web-hacking-extreme/08-cloud-web/auditing-gcp-iam-permissions/SKILL.md` — Auditing GCP IAM Permissions
+- `skills/020-web-hacking-extreme/08-cloud-web/auditing-kubernetes-cluster-rbac/SKILL.md` — Auditing Kubernetes Cluster RBAC
+- `skills/020-web-hacking-extreme/08-cloud-web/auditing-kubernetes-rbac-privilege-escalation/SKILL.md` — Auditing Kubernetes RBAC Privilege Escalation
+- `skills/020-web-hacking-extreme/08-cloud-web/conducting-cloud-penetration-testing/SKILL.md` — Conducting Cloud Penetration Testing
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-aws-cloudtrail-anomalies/SKILL.md` — Detecting AWS CloudTrail Anomalies
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-aws-credential-exposure-with-trufflehog/SKILL.md` — Detecting AWS Credential Exposure with TruffleHog
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-aws-iam-privilege-escalation/SKILL.md` — Detecting AWS IAM Privilege Escalation
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-azure-lateral-movement/SKILL.md` — Detecting Azure Lateral Movement
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-azure-service-principal-abuse/SKILL.md` — Detecting Azure Service Principal Abuse
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-azure-storage-account-misconfigurations/SKILL.md` — Detecting Azure Storage Account Misconfigurations
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-cloud-threats-with-guardduty/SKILL.md` — Detecting Cloud Threats with GuardDuty
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-compromised-cloud-credentials/SKILL.md` — Detecting Compromised Cloud Credentials
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-cryptomining-in-cloud/SKILL.md` — Detecting Cryptomining in Cloud
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-misconfigured-azure-storage/SKILL.md` — Detecting Misconfigured Azure Storage
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-privilege-escalation-in-kubernetes-pods/SKILL.md` — Detecting Privilege Escalation in Kubernetes Pods
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-s3-data-exfiltration-attempts/SKILL.md` — Detecting S3 Data Exfiltration Attempts
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-serverless-function-injection/SKILL.md` — Detecting Serverless Function Injection
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-shadow-it-cloud-usage/SKILL.md` — Detecting Shadow IT Cloud Usage
+- `skills/020-web-hacking-extreme/08-cloud-web/detecting-supply-chain-attacks-in-ci-cd/SKILL.md` — Detecting Supply Chain Attacks in CI/CD
+- `skills/020-web-hacking-extreme/08-cloud-web/emulating-cloud-attacks-with-stratus-red-team/SKILL.md` — Emulating Cloud Attacks with Stratus Red Team
+- `skills/020-web-hacking-extreme/08-cloud-web/enumerating-cloud-with-cloudfox/SKILL.md` — Enumerating Cloud with CloudFox
+- `skills/020-web-hacking-extreme/08-cloud-web/escaping-containers-to-host/SKILL.md` — Escaping Containers to Host
+- `skills/020-web-hacking-extreme/08-cloud-web/exploiting-aws-with-pacu/SKILL.md` — Exploiting AWS with Pacu
+- `skills/020-web-hacking-extreme/08-cloud-web/hunting-for-living-off-the-cloud-techniques/SKILL.md` — Hunting For Living Off The Cloud Techniques
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-cloud-trail-log-analysis/SKILL.md` — Implementing CloudTrail Log Analysis
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-cloud-waf-rules/SKILL.md` — Implementing Cloud WAF Rules
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-cloud-workload-protection/SKILL.md` — Implementing Cloud Workload Protection
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-container-network-policies-with-calico/SKILL.md` — Implementing Container Network Policies with Calico
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-gcp-binary-authorization/SKILL.md` — Implementing GCP Binary Authorization
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-gcp-vpc-firewall-rules/SKILL.md` — Implementing GCP VPC Firewall Rules
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-kubernetes-network-policy-with-calico/SKILL.md` — Implementing Kubernetes Network Policy with Calico
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-kubernetes-pod-security-standards/SKILL.md` — Implementing Kubernetes Pod Security Standards
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-rbac-hardening-for-kubernetes/SKILL.md` — Implementing RBAC Hardening for Kubernetes
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-runtime-security-with-tetragon/SKILL.md` — Implementing Runtime Security with Tetragon
+- `skills/020-web-hacking-extreme/08-cloud-web/implementing-secrets-management-with-vault/SKILL.md` — Implementing Secrets Management with Vault
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-aws-account-enumeration-with-scout-suite/SKILL.md` — Performing AWS Account Enumeration with ScoutSuite
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-aws-privilege-escalation-assessment/SKILL.md` — Performing AWS Privilege Escalation Assessment
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-cloud-asset-inventory-with-cartography/SKILL.md` — Performing Cloud Asset Inventory with Cartography
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-cloud-native-threat-hunting-with-aws-detective/SKILL.md` — Performing Cloud-Native Threat Hunting with AWS Detective
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-cloud-penetration-testing-with-pacu/SKILL.md` — Performing Cloud Penetration Testing with Pacu
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-container-escape-detection/SKILL.md` — Performing Container Escape Detection
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-container-image-hardening/SKILL.md` — Performing Container Image Hardening
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-container-security-scanning-with-trivy/SKILL.md` — Performing Container Security Scanning with Trivy
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-gcp-penetration-testing-with-gcpbucketbrute/SKILL.md` — Performing GCP Penetration Testing with GCPBucketBrute
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-gcp-security-assessment-with-forseti/SKILL.md` — Performing GCP Security Assessment with Forseti
+- `skills/020-web-hacking-extreme/08-cloud-web/performing-kubernetes-penetration-testing/SKILL.md` — Performing Kubernetes Penetration Testing
+- `skills/020-web-hacking-extreme/08-cloud-web/scanning-container-images-with-grype/SKILL.md` — Scanning Container Images with Grype
+- `skills/020-web-hacking-extreme/08-cloud-web/scanning-containers-with-trivy-in-cicd/SKILL.md` — Scanning Containers with Trivy in CI/CD
+- `skills/020-web-hacking-extreme/08-cloud-web/scanning-docker-images-with-trivy/SKILL.md` — Scanning Docker Images with Trivy
+- `skills/020-web-hacking-extreme/08-cloud-web/scanning-iac-and-images-with-trivy/SKILL.md` — Scanning IaC and Images with Trivy
+- `skills/020-web-hacking-extreme/08-cloud-web/scanning-kubernetes-manifests-with-kubesec/SKILL.md` — Scanning Kubernetes Manifests with Kubesec
+- `skills/020-web-hacking-extreme/08-cloud-web/securing-aws-iam-permissions/SKILL.md` — Securing AWS IAM Permissions
+- `skills/020-web-hacking-extreme/08-cloud-web/securing-aws-lambda-execution-roles/SKILL.md` — Securing AWS Lambda Execution Roles
+- `skills/020-web-hacking-extreme/08-cloud-web/securing-serverless-functions/SKILL.md` — Securing Serverless Functions
+- `skills/020-web-hacking-extreme/09-ai-llm-web/assessing-vector-and-embedding-weaknesses/SKILL.md` — Assessing Vector and Embedding Weaknesses
+- `skills/020-web-hacking-extreme/09-ai-llm-web/auditing-mcp-servers-for-tool-poisoning/SKILL.md` — Auditing MCP Servers for Tool Poisoning
+- `skills/020-web-hacking-extreme/09-ai-llm-web/continuous-llm-red-teaming-with-promptfoo/SKILL.md` — Continuous LLM Red Teaming with Promptfoo
+- `skills/020-web-hacking-extreme/09-ai-llm-web/defending-llms-with-guardrails/SKILL.md` — Defending LLMs with Guardrails
+- `skills/020-web-hacking-extreme/09-ai-llm-web/detecting-ai-model-prompt-injection-attacks/SKILL.md` — Detecting AI Model Prompt Injection Attacks
+- `skills/020-web-hacking-extreme/09-ai-llm-web/detecting-data-and-model-poisoning/SKILL.md` — Detecting Data and Model Poisoning
+- `skills/020-web-hacking-extreme/09-ai-llm-web/detecting-indirect-prompt-injection/SKILL.md` — Detecting Indirect Prompt Injection
+- `skills/020-web-hacking-extreme/09-ai-llm-web/detecting-model-extraction-attacks/SKILL.md` — Detecting Model Extraction Attacks
+- `skills/020-web-hacking-extreme/09-ai-llm-web/implementing-llm-guardrails-for-security/SKILL.md` — Implementing LLM Guardrails for Security
+- `skills/020-web-hacking-extreme/09-ai-llm-web/orchestrating-llm-attacks-with-pyrit/SKILL.md` — Orchestrating LLM Attacks with PyRIT
+- `skills/020-web-hacking-extreme/09-ai-llm-web/red-teaming-llms-with-garak/SKILL.md` — Red-Teaming LLMs with garak
+- `skills/020-web-hacking-extreme/09-ai-llm-web/securing-agentic-ai-tool-invocation/SKILL.md` — Securing Agentic AI Tool Invocation
+- `skills/020-web-hacking-extreme/09-ai-llm-web/testing-for-system-prompt-leakage/SKILL.md` — Testing for System Prompt Leakage
+- `skills/020-web-hacking-extreme/09-ai-llm-web/testing-prompt-injection-in-rag-pipelines/SKILL.md` — Testing Prompt Injection in RAG Pipelines
+- `skills/020-web-hacking-extreme/10-adv-recon/analyzing-certificate-transparency-for-phishing/SKILL.md` — Analyzing Certificate Transparency for Phishing
+- `skills/020-web-hacking-extreme/10-adv-recon/analyzing-typosquatting-domains-with-dnstwist/SKILL.md` — Analyzing Typosquatting Domains with DNSTwist
+- `skills/020-web-hacking-extreme/10-adv-recon/auditing-tls-certificate-transparency-logs/SKILL.md` — Auditing TLS Certificate Transparency Logs
+- `skills/020-web-hacking-extreme/10-adv-recon/building-threat-actor-profile-from-osint/SKILL.md` — Building Threat Actor Profile from OSINT
+- `skills/020-web-hacking-extreme/10-adv-recon/collecting-open-source-intelligence/SKILL.md` — Collecting Open-Source Intelligence
+- `skills/020-web-hacking-extreme/10-adv-recon/conducting-external-reconnaissance-with-osint/SKILL.md` — Conducting External Reconnaissance with OSINT
+- `skills/020-web-hacking-extreme/10-adv-recon/monitoring-darkweb-sources/SKILL.md` — Monitoring Dark Web Sources
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-brand-monitoring-for-impersonation/SKILL.md` — Performing Brand Monitoring for Impersonation
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-dark-web-monitoring-for-threats/SKILL.md` — Performing Dark Web Monitoring for Threats
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-dns-enumeration-and-zone-transfer/SKILL.md` — Performing DNS Enumeration and Zone Transfer
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-ip-reputation-analysis-with-shodan/SKILL.md` — Performing IP Reputation Analysis with Shodan
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-open-source-intelligence-gathering/SKILL.md` — Performing Open Source Intelligence Gathering
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-osint-with-spiderfoot/SKILL.md` — Performing OSINT with SpiderFoot
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-paste-site-monitoring-for-credentials/SKILL.md` — Performing Paste Site Monitoring for Credentials
+- `skills/020-web-hacking-extreme/10-adv-recon/performing-subdomain-enumeration-with-subfinder/SKILL.md` — Performing Subdomain Enumeration with Subfinder
+- `skills/020-web-hacking-extreme/10-adv-recon/profiling-threat-actor-groups/SKILL.md` — Profiling Threat Actor Groups
+- `skills/020-web-hacking-extreme/10-adv-recon/tracking-threat-actor-infrastructure/SKILL.md` — Tracking Threat Actor Infrastructure
+- `skills/020-web-hacking-extreme/11-network-web/analyzing-dns-logs-for-exfiltration/SKILL.md` — Analyzing DNS Logs for Exfiltration
+- `skills/020-web-hacking-extreme/11-network-web/analyzing-network-flow-data-with-netflow/SKILL.md` — Analyzing Network Flow Data with Netflow
+- `skills/020-web-hacking-extreme/11-network-web/analyzing-network-packets-with-scapy/SKILL.md` — Analyzing Network Packets with Scapy
+- `skills/020-web-hacking-extreme/11-network-web/analyzing-network-traffic-for-incidents/SKILL.md` — Analyzing Network Traffic for Incidents
+- `skills/020-web-hacking-extreme/11-network-web/analyzing-network-traffic-with-wireshark/SKILL.md` — Analyzing Network Traffic with Wireshark
+- `skills/020-web-hacking-extreme/11-network-web/configuring-network-segmentation-with-vlans/SKILL.md` — Configuring Network Segmentation with VLANs
+- `skills/020-web-hacking-extreme/11-network-web/configuring-pfsense-firewall-rules/SKILL.md` — Configuring pfSense Firewall Rules
+- `skills/020-web-hacking-extreme/11-network-web/configuring-snort-ids-for-intrusion-detection/SKILL.md` — Configuring Snort IDS for Intrusion Detection
+- `skills/020-web-hacking-extreme/11-network-web/configuring-suricata-for-network-monitoring/SKILL.md` — Configuring Suricata for Network Monitoring
+- `skills/020-web-hacking-extreme/11-network-web/detecting-arp-poisoning-in-network-traffic/SKILL.md` — Detecting ARP Poisoning in Network Traffic
+- `skills/020-web-hacking-extreme/11-network-web/detecting-beaconing-patterns-with-zeek/SKILL.md` — Detecting Beaconing Patterns with Zeek
+- `skills/020-web-hacking-extreme/11-network-web/detecting-exfiltration-over-dns-with-zeek/SKILL.md` — Detecting Exfiltration over DNS with Zeek
+- `skills/020-web-hacking-extreme/11-network-web/detecting-lateral-movement-with-zeek/SKILL.md` — Detecting Lateral Movement with Zeek
+- `skills/020-web-hacking-extreme/11-network-web/detecting-network-anomalies-with-zeek/SKILL.md` — Detecting Network Anomalies with Zeek
+- `skills/020-web-hacking-extreme/11-network-web/detecting-network-scanning-with-ids-signatures/SKILL.md` — Detecting Network Scanning with IDS Signatures
+- `skills/020-web-hacking-extreme/11-network-web/detecting-port-scanning-with-fail2ban/SKILL.md` — Detecting Port Scanning with Fail2ban
+- `skills/020-web-hacking-extreme/11-network-web/implementing-bgp-security-with-rpki/SKILL.md` — Implementing BGP Security with RPKI
+- `skills/020-web-hacking-extreme/11-network-web/implementing-ddos-mitigation-with-cloudflare/SKILL.md` — Implementing DDoS Mitigation with Cloudflare
+- `skills/020-web-hacking-extreme/11-network-web/implementing-network-access-control/SKILL.md` — Implementing Network Access Control
+- `skills/020-web-hacking-extreme/11-network-web/implementing-network-intrusion-prevention-with-suricata/SKILL.md` — Implementing Network Intrusion Prevention with Suricata
+- `skills/020-web-hacking-extreme/11-network-web/implementing-network-traffic-analysis-with-arkime/SKILL.md` — Implementing Network Traffic Analysis with Arkime
+- `skills/020-web-hacking-extreme/11-network-web/implementing-network-traffic-baselining/SKILL.md` — Implementing Network Traffic Baselining
+- `skills/020-web-hacking-extreme/11-network-web/implementing-next-generation-firewall-with-palo-alto/SKILL.md` — Implementing Next-Generation Firewall with Palo Alto
+- `skills/020-web-hacking-extreme/11-network-web/performing-dns-tunneling-detection/SKILL.md` — Performing DNS Tunneling Detection
+- `skills/020-web-hacking-extreme/11-network-web/performing-network-packet-capture-analysis/SKILL.md` — Performing Network Packet Capture Analysis
+- `skills/020-web-hacking-extreme/11-network-web/performing-network-traffic-analysis-with-tshark/SKILL.md` — Performing Network Traffic Analysis with TShark
+- `skills/020-web-hacking-extreme/11-network-web/performing-network-traffic-analysis-with-zeek/SKILL.md` — Performing Network Traffic Analysis with Zeek
+- `skills/020-web-hacking-extreme/12-red-team-web/attacking-oauth-with-device-code-phishing/SKILL.md` — Attacking OAuth with Device-Code Phishing
+- `skills/020-web-hacking-extreme/12-red-team-web/building-c2-infrastructure-with-sliver-framework/SKILL.md` — Building C2 Infrastructure with Sliver Framework
+- `skills/020-web-hacking-extreme/12-red-team-web/building-c2-redirector-infrastructure/SKILL.md` — Building C2 Redirector Infrastructure
+- `skills/020-web-hacking-extreme/12-red-team-web/building-red-team-c2-infrastructure-with-havoc/SKILL.md` — Building Red Team C2 Infrastructure with Havoc
+- `skills/020-web-hacking-extreme/12-red-team-web/conducting-social-engineering-penetration-test/SKILL.md` — Conducting Social Engineering Penetration Test
+- `skills/020-web-hacking-extreme/12-red-team-web/conducting-spearphishing-simulation-campaign/SKILL.md` — Conducting Spearphishing Simulation Campaign
+- `skills/020-web-hacking-extreme/12-red-team-web/designing-adversary-engagement-with-mitre-engage/SKILL.md` — Designing Adversary Engagement with MITRE Engage
+- `skills/020-web-hacking-extreme/12-red-team-web/executing-active-directory-attack-simulation/SKILL.md` — Executing Active Directory Attack Simulation
+- `skills/020-web-hacking-extreme/12-red-team-web/executing-phishing-simulation-campaign/SKILL.md` — Executing Phishing Simulation Campaign
+- `skills/020-web-hacking-extreme/12-red-team-web/executing-red-team-engagement-planning/SKILL.md` — Executing Red Team Engagement Planning
+- `skills/020-web-hacking-extreme/12-red-team-web/executing-red-team-exercise/SKILL.md` — Executing Red Team Exercise
+- `skills/020-web-hacking-extreme/12-red-team-web/operating-havoc-c2/SKILL.md` — Operating Havoc C2
+- `skills/020-web-hacking-extreme/12-red-team-web/operating-sliver-c2/SKILL.md` — Operating Sliver C2
+- `skills/020-web-hacking-extreme/12-red-team-web/performing-initial-access-with-evilginx3/SKILL.md` — Performing Initial Access with EvilGinx3
+- `skills/020-web-hacking-extreme/12-red-team-web/performing-phishing-simulation-with-gophish/SKILL.md` — Performing Phishing Simulation with GoPhish
+- `skills/020-web-hacking-extreme/12-red-team-web/performing-red-team-phishing-with-gophish/SKILL.md` — For authorized penetration testing and lab environments only
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-api-gateway-access-logs/SKILL.md` — Analyzing API Gateway Access Logs
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-azure-activity-logs-for-threats/SKILL.md` — Analyzing Azure Activity Logs for Threats
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-kubernetes-audit-logs/SKILL.md` — Analyzing Kubernetes Audit Logs
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-linux-audit-logs-for-intrusion/SKILL.md` — Analyzing Linux Audit Logs for Intrusion
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-office365-audit-logs-for-compromise/SKILL.md` — Analyzing Office 365 Audit Logs for Compromise
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-powershell-script-block-logging/SKILL.md` — Analyzing PowerShell Script Block Logging
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-security-logs-with-splunk/SKILL.md` — Analyzing Security Logs with Splunk
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-web-server-logs-for-intrusion/SKILL.md` — Analyzing Web Server Logs for Intrusion
+- `skills/020-web-hacking-extreme/13-log-siem-web/analyzing-windows-event-logs-in-splunk/SKILL.md` — Analyzing Windows Event Logs in Splunk
+- `skills/020-web-hacking-extreme/13-log-siem-web/building-cloud-siem-with-sentinel/SKILL.md` — Building Cloud SIEM with Sentinel
+- `skills/020-web-hacking-extreme/13-log-siem-web/building-detection-rule-with-splunk-spl/SKILL.md` — Building Detection Rules with Splunk SPL
+- `skills/020-web-hacking-extreme/13-log-siem-web/building-detection-rules-with-sigma/SKILL.md` — Building Detection Rules with Sigma
+- `skills/020-web-hacking-extreme/13-log-siem-web/correlating-security-events-in-qradar/SKILL.md` — Correlating Security Events in QRadar
+- `skills/020-web-hacking-extreme/13-log-siem-web/detecting-entra-offensive-tools-in-graph-logs/SKILL.md` — Detecting Entra Offensive Tools in Graph Logs
+- `skills/020-web-hacking-extreme/13-log-siem-web/detecting-oauth-token-theft/SKILL.md` — Detecting OAuth Token Theft
+- `skills/020-web-hacking-extreme/13-log-siem-web/implementing-log-forwarding-with-fluentd/SKILL.md` — Implementing Log Forwarding with Fluentd
+- `skills/020-web-hacking-extreme/13-log-siem-web/implementing-security-monitoring-with-datadog/SKILL.md` — Implementing Security Monitoring with Datadog
+- `skills/020-web-hacking-extreme/13-log-siem-web/implementing-siem-correlation-rules-for-apt/SKILL.md` — Implementing SIEM Correlation Rules for APT
+- `skills/020-web-hacking-extreme/13-log-siem-web/implementing-syslog-centralization-with-rsyslog/SKILL.md` — Implementing Syslog Centralization with Rsyslog
+- `skills/020-web-hacking-extreme/13-log-siem-web/performing-threat-hunting-with-elastic-siem/SKILL.md` — Performing Threat Hunting with Elastic SIEM
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/bypassing-authentication-with-forced-browsing/SKILL.md` — Bypassing Authentication with Forced Browsing
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/conducting-internal-network-penetration-test/SKILL.md` — Conducting Internal Network Penetration Test
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-broken-function-level-authorization/SKILL.md` — Exploiting Broken Function Level Authorization
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-broken-link-hijacking/SKILL.md` — Exploiting Broken Link Hijacking
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-deeplink-vulnerabilities/SKILL.md` — Exploiting Deep Link Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-excessive-data-exposure-in-api/SKILL.md` — Exploiting Excessive Data Exposure in API
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-insecure-data-storage-in-mobile/SKILL.md` — Exploiting Insecure Data Storage in Mobile
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-jwt-algorithm-confusion-attack/SKILL.md` — Exploiting JWT Algorithm Confusion Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-nosql-injection-vulnerabilities/SKILL.md` — Exploiting NoSQL Injection Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-prototype-pollution-in-javascript/SKILL.md` — Exploiting Prototype Pollution in JavaScript
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-race-condition-vulnerabilities/SKILL.md` — Exploiting Race Condition Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/exploiting-type-juggling-vulnerabilities/SKILL.md` — Exploiting Type Juggling Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-binary-exploitation-analysis/SKILL.md` — Performing Binary Exploitation Analysis
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-blind-ssrf-exploitation/SKILL.md` — Performing Blind SSRF Exploitation
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-clickjacking-attack-test/SKILL.md` — Performing Clickjacking Attack Test
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-content-security-policy-bypass/SKILL.md` — Performing Content Security Policy Bypass
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-csrf-attack-simulation/SKILL.md` — Performing CSRF Attack Simulation
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-directory-traversal-testing/SKILL.md` — Performing Directory Traversal Testing
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-fuzzing-with-aflplusplus/SKILL.md` — Performing Fuzzing with AFL++
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-graphql-depth-limit-attack/SKILL.md` — Performing GraphQL Depth Limit Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-graphql-introspection-attack/SKILL.md` — Performing GraphQL Introspection Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-http-parameter-pollution-attack/SKILL.md` — Performing HTTP Parameter Pollution Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-jwt-none-algorithm-attack/SKILL.md` — Performing JWT None Algorithm Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-packet-injection-attack/SKILL.md` — Performing Packet Injection Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-second-order-sql-injection/SKILL.md` — Performing Second-Order SQL Injection
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-ssl-stripping-attack/SKILL.md` — Performing SSL Stripping Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-ssrf-vulnerability-exploitation/SKILL.md` — For authorized penetration testing and lab environments only
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-steganography-detection/SKILL.md` — Performing Steganography Detection
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-supply-chain-attack-simulation/SKILL.md` — Performing Supply Chain Attack Simulation
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-vlan-hopping-attack/SKILL.md` — Performing VLAN Hopping Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-web-cache-deception-attack/SKILL.md` — Performing Web Cache Deception Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/performing-web-cache-poisoning-attack/SKILL.md` — Performing Web Cache Poisoning Attack
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/scanning-network-with-nmap-advanced/SKILL.md` — Scanning Network with Nmap Advanced Techniques
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-api-authentication-weaknesses/SKILL.md` — Testing API Authentication Weaknesses
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-api-for-broken-object-level-authorization/SKILL.md` — Testing API for Broken Object Level Authorization
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-api-for-mass-assignment-vulnerability/SKILL.md` — Testing API for Mass Assignment Vulnerability
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-cors-misconfiguration/SKILL.md` — Testing CORS Misconfiguration
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-broken-access-control/SKILL.md` — Testing for Broken Access Control
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-business-logic-vulnerabilities/SKILL.md` — Testing for Business Logic Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-email-header-injection/SKILL.md` — Testing for Email Header Injection
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-host-header-injection/SKILL.md` — Testing for Host Header Injection
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-json-web-token-vulnerabilities/SKILL.md` — Testing for JSON Web Token Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-open-redirect-vulnerabilities/SKILL.md` — Testing for Open Redirect Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-sensitive-data-exposure/SKILL.md` — Testing for Sensitive Data Exposure
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xml-injection-vulnerabilities/SKILL.md` — Testing for XML Injection Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xss-vulnerabilities-with-burpsuite/SKILL.md` — Testing for XSS Vulnerabilities with Burp Suite
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xss-vulnerabilities/SKILL.md` — Testing for XSS Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xxe-injection-vulnerabilities/SKILL.md` — Testing for XXE Injection Vulnerabilities
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-oauth2-implementation-flaws/SKILL.md` — Testing OAuth2 Implementation Flaws
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-websocket-api-security/SKILL.md` — Testing WebSocket API Security
+- `skills/020-web-hacking-extreme/15-threat-intel/analyzing-command-and-control-communication/SKILL.md` — Analyzing Command-and-Control Communication
+- `skills/020-web-hacking-extreme/15-threat-intel/analyzing-malicious-url-with-urlscan/SKILL.md` — Analyzing Malicious URL with URLScan
+- `skills/020-web-hacking-extreme/15-threat-intel/analyzing-network-covert-channels-in-malware/SKILL.md` — Analyzing Network Covert Channels in Malware
+- `skills/020-web-hacking-extreme/15-threat-intel/analyzing-ransomware-network-indicators/SKILL.md` — Analyzing Ransomware Network Indicators
+- `skills/020-web-hacking-extreme/15-threat-intel/building-ioc-enrichment-pipeline-with-opencti/SKILL.md` — Building IOC Enrichment Pipeline with OpenCTI
+- `skills/020-web-hacking-extreme/15-threat-intel/building-threat-intelligence-platform/SKILL.md` — Building Threat Intelligence Platform
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-api-enumeration-attacks/SKILL.md` — Detecting API Enumeration Attacks
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-command-and-control-over-dns/SKILL.md` — Detecting Command and Control Over DNS
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-compromised-cloud-credentials/SKILL.md` — Detecting Compromised Cloud Credentials
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-dependency-confusion/SKILL.md` — Detecting Dependency Confusion
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-dns-exfiltration-with-dns-query-analysis/SKILL.md` — Detecting DNS Exfiltration with DNS Query Analysis
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-exfiltration-over-dns-with-zeek/SKILL.md` — Detecting Exfiltration over DNS with Zeek
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-shadow-api-endpoints/SKILL.md` — Detecting Shadow API Endpoints
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-shadow-it-cloud-usage/SKILL.md` — Detecting Shadow IT Cloud Usage
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-supply-chain-attacks-in-ci-cd/SKILL.md` — Detecting Supply Chain Attacks in CI/CD
+- `skills/020-web-hacking-extreme/15-threat-intel/detecting-suspicious-oauth-application-consent/SKILL.md` — Detecting Suspicious OAuth Application Consent
+- `skills/020-web-hacking-extreme/15-threat-intel/hunting-for-command-and-control-beaconing/SKILL.md` — Hunting for Command and Control Beaconing
+- `skills/020-web-hacking-extreme/15-threat-intel/hunting-for-domain-fronting-c2-traffic/SKILL.md` — Hunting for Domain Fronting C2 Traffic
+- `skills/020-web-hacking-extreme/15-threat-intel/hunting-for-living-off-the-land-binaries/SKILL.md` — Hunting for Living-off-the-Land Binaries (LOLBins)
+- `skills/020-web-hacking-extreme/15-threat-intel/hunting-for-spearphishing-indicators/SKILL.md` — Hunting For Spearphishing Indicators
+- `skills/020-web-hacking-extreme/15-threat-intel/hunting-for-webshell-activity/SKILL.md` — Hunting For Webshell Activity
+- `skills/020-web-hacking-extreme/15-threat-intel/performing-threat-hunting-with-yara-rules/SKILL.md` — Performing Threat Hunting with YARA Rules
+- `skills/Hykingcr/9router/SKILL.md` — 9Router
+- `skills/Hykingcr/SKILL.md` — HYKINGCR — Маршрутизатор Технической Безопасности
+- `skills/Hykingcr/api-recon/SKILL.md` — HYKINGCR — API Recon (ARTEX Methodology)
+- `skills/Hykingcr/binary-recon/SKILL.md` — HYKINGCR — Binary Recon (universal-modder)
+- `skills/Hykingcr/browser-act/SKILL.md` — browser-act
+- `skills/Hykingcr/burpsuite-cli/SKILL.md` — burpsuite-cli
+- `skills/Hykingcr/certipy-cli/SKILL.md` — certipy-cli
+- `skills/Hykingcr/chisel-tunnel/SKILL.md` — chisel-tunnel
+- `skills/Hykingcr/chrome-devtools-axi/SKILL.md` — chrome-devtools-axi
+- `skills/Hykingcr/ctf-toolindex/SKILL.md` — HYKINGCR — CTF Tool Index
+- `skills/Hykingcr/evil-winrm-cli/SKILL.md` — evil-winrm-cli
+- `skills/Hykingcr/geo-osint/SKILL.md` — HYKINGCR — Geo OSINT (geo-sleuth)
+- `skills/Hykingcr/ghidra-mcp/SKILL.md` — HYKINGCR — Ghidra MCP
+- `skills/Hykingcr/gobuster-cli/SKILL.md` — gobuster-cli
+- `skills/Hykingcr/hashcat-cli/SKILL.md` — hashcat-cli
+- `skills/Hykingcr/hydra-cli/SKILL.md` — hydra-cli
+- `skills/Hykingcr/ida-mcp/SKILL.md` — HYKINGCR — IDA Pro MCP
+- `skills/Hykingcr/jshook-mcp/SKILL.md` — HYKINGCR — jshook MCP
+- `skills/Hykingcr/killchain-engine/SKILL.md` — HYKINGCR — Kill-Chain Engine
+- `skills/Hykingcr/llm-redteam/SKILL.md` — HYKINGCR — LLM Red Team (deepteam)
+- `skills/Hykingcr/malware-toolindex/SKILL.md` — HYKINGCR — Malware Analysis Tool Index
+- `skills/Hykingcr/metasploit-cli/SKILL.md` — metasploit-cli
+- `skills/Hykingcr/netexec-cli/SKILL.md` — netexec-cli
+- `skills/Hykingcr/nikto-cli/SKILL.md` — nikto-cli
+- `skills/Hykingcr/nmap-cli/SKILL.md` — nmap-cli
+- `skills/Hykingcr/pentest-agents/SKILL.md` — HYKINGCR — Pentest Agents (Decepticon)
+- `skills/Hykingcr/pwn-suite/SKILL.md` — HYKINGCR — Web Pwn Suite · Axiom Maximum Extreme Mode
+- `skills/Hykingcr/re-tools-mcp/SKILL.md` — HYKINGCR — REA Reverse Tools MCP
+- `skills/Hykingcr/rea-prompts/SKILL.md` — HYKINGCR — REA Prompt Packs (reap-00 – reap-22)
+- `skills/Hykingcr/responder-cli/SKILL.md` — responder-cli
+- `skills/Hykingcr/reverse-skill/SKILL.md` — HYKINGCR — Reverse Skill Router (R0–R45)
+- `skills/Hykingcr/seclists-ref/SKILL.md` — seclists-ref

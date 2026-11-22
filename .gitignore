@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+*.egg-info/
+
+# Secrets and local config — never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+*token*.json
+local-paths.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and local runs
+*.log
+/tmp/
