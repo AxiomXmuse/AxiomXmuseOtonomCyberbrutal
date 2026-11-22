@@ -46,7 +46,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization specifying the target domains and network ranges
 - Passive traffic capture capability (network tap, proxy, or cloud traffic mirroring)
 - Active scanning tools: Amass, subfinder, httpx, and nuclei
 - JavaScript analysis tools: LinkFinder, JS-Miner, or custom parsers

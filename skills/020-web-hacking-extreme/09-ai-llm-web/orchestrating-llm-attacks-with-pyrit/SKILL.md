@@ -50,7 +50,6 @@ This skill maps to MITRE ATLAS **AML.T0051 (LLM Prompt Injection)** and **AML.T0
   python -c "import pyrit; print(pyrit.__version__)"
   ```
 - Credentials/endpoints for: the **target** model, an **adversarial chat** model (the attacker), and a **scoring** model (often the same as the adversarial model). For OpenAI/Azure set `OPENAI_API_KEY` / Azure OpenAI env vars, or use a `.env` file PyRIT loads.
-- Written authorization to test the target.
 
 ## Objectives
 

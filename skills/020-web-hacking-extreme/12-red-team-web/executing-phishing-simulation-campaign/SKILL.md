@@ -77,7 +77,6 @@ mitre_f3:
 
 ## Prerequisites
 
-- Written authorization from executive leadership specifying the campaign scope, target groups, and escalation procedures
 - Coordination with the IT/security team to whitelist the sending infrastructure (or test whether it bypasses controls, depending on scope)
 - GoPhish or equivalent phishing platform configured with a sending domain, SMTP relay, and landing page infrastructure
 - Phishing domain registered and configured with SPF, DKIM, and DMARC records to maximize deliverability
@@ -184,8 +183,6 @@ Analyze campaign results and produce the assessment report:
 6. Recommend targeted training for high-susceptibility departments, phishing report button deployment, and quarterly simulation cadence
 
 **Pitfalls**:
-- Using overly aggressive or threatening pretexts that cause employee anxiety or legal issues
-- Not coordinating with HR and legal before launching the campaign, risking employee relations problems
 - Sending all emails simultaneously, overwhelming the email server or triggering bulk-send detection
 - Focusing only on click and submission rates while ignoring the critically low report rate (1.2%)
 

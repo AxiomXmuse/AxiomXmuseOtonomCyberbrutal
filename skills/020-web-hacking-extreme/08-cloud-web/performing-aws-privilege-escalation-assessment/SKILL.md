@@ -43,7 +43,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization for privilege escalation testing in the target AWS account
 - Test IAM user or role with limited permissions as the starting point
 - Pacu installed (`pip install pacu`)
 - CloudFox installed (`go install github.com/BishopFox/cloudfox@latest`)

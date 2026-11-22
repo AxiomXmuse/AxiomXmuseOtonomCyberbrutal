@@ -47,7 +47,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization specifying target endpoints and acceptable request volumes
 - Python 3.10+ with `requests`, `aiohttp`, and `asyncio` libraries
 - Burp Suite Professional with Turbo Intruder extension for high-speed testing
 - cURL for manual header manipulation testing

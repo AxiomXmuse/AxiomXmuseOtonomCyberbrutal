@@ -60,7 +60,6 @@ This skill covers installing CloudFox, authenticating to AWS and Azure, running 
   az login
   az account show
   ```
-- A signed authorization / Rules of Engagement defining the in-scope accounts
 - `awscli` (AWS) and/or `azure-cli` (Azure) installed for credential setup and follow-up
 
 ## Objectives

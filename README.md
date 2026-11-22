@@ -12,9 +12,9 @@ Arsenal red-team otonom untuk Muse: skill, router, dan agent loop dalam satu rep
 | Skill Hykingcr | `skills/Hykingcr/` | CLI + MCP: nmap, gobuster, hashcat, hydra, metasploit, netexec, nikto, responder, evil-winrm, certipy, chisel, ghidra, ida, re-tools, llm-redteam, killchain-engine, pentest-agents, pwn-suite, api-recon, binary-recon, geo-osint, browser-act, dan banyak lagi. Router di `skills/Hykingcr/scripts/router.py`, tabel routing di `skills/Hykingcr/config/routing.json`. |
 | Web hacking extreme | `skills/020-web-hacking-extreme/` | 15 kategori: 01-recon, 02-waf-bypass, 03-exploit, 04-client-side, 05-auth-oauth, 06-automation, 07-web-security, 08-cloud-web, 09-ai-llm-web, 10-adv-recon, 11-network-web, 12-red-team-web, 13-log-siem-web, 14-exploit-arsenal, 15-threat-intel, plus `pipeline/`. |
 | HackinMode | `skills/HackinMode/` | Titik masuk mode web-pwn (`skill.md`). |
-| Indeks skill | `SKILLS_INDEX.md` | Semua 300 dokumen skill, lengkap dengan path. |
+| Indeks skill | `SKILLS_INDEX.md` | Semua 302 dokumen skill, lengkap dengan path. |
 
-Angka terverifikasi 2026-11-22: **299 `SKILL.md` + 1 `skill.md`, 300 `agent.py`**, 1.378 file, ~10 MB.
+Angka terverifikasi 2026-11-22: **301 `SKILL.md` + 1 `skill.md`, 300 `agent.py`**, 1.391 file, ~27 MB.
 
 ## Install
 
@@ -56,7 +56,7 @@ Route: H01–H14 + R0–R45 (Hykingcr + reverse-skill), W01–W15 (020-web-hacki
 
 - `skills/Hykingcr/scripts/router.py` + `config/routing.json` — route tugas dengan kata biasa ke skill yang tepat.
 - `skills/020-web-hacking-extreme/pipeline/` — pipeline web end-to-end (recon → deteksi → WAF bypass → exploit → chain → report).
-- `SKILLS_INDEX.md` — indeks satu baris tiap skill, supaya Muse menemukan skill yang tepat tanpa membaca 300 dokumen.
+- `SKILLS_INDEX.md` — indeks satu baris tiap skill, supaya Muse menemukan skill yang tepat tanpa membaca 302 dokumen.
 
 ## Aturan repo
 

@@ -84,7 +84,6 @@ Use this skill when:
 - Commercial dark web monitoring service (Recorded Future, Flashpoint, Intel 471, or Cybersixgill)
 - Isolated operational environment: Whonix OS or Tails OS running in a VM with no persistent storage
 - Keyword watchlist: organization domain, key executive names, product names, IP ranges, known credentials
-- Legal guidance confirming passive monitoring is authorized in your jurisdiction
 
 ## Workflow
 
@@ -174,5 +173,4 @@ For each dark web finding:
 - **Direct access without OPSEC**: Accessing dark web forums without Tor and a cover identity can expose analyst IP, browser fingerprint, and organization affiliation to adversaries.
 - **Overreacting to unverified claims**: Ransomware groups and forum posters fabricate attack claims for extortion or reputation. Verify before escalating to incident response.
 - **Missing clearnet sources**: Most dark web intelligence programs miss Telegram channels, Discord servers, and paste sites which operate on the clearnet and host significant criminal activity.
-- **Inadequate legal review**: Dark web monitoring must be reviewed by legal counsel — passive monitoring is generally lawful but active participation in criminal markets is not.
 - **No evidence preservation**: Dark web content disappears rapidly. Capture timestamped evidence immediately upon discovery using commercial service exports.

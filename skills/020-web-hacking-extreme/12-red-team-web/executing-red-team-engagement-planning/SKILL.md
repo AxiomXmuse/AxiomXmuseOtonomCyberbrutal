@@ -30,7 +30,7 @@ mitre_attack:
 
 ## Overview
 
-Red team engagement planning is the foundational phase that defines scope, objectives, rules of engagement (ROE), threat model selection, and operational timelines before any offensive testing begins. A well-structured engagement plan ensures the red team simulates realistic adversary behavior while maintaining safety guardrails that prevent unintended business disruption.
+Red team engagement planning is the foundational phase that defines scope, objectives, rules of engagement (ROE), threat model selection, and operational timelines before any offensive testing begins. A well-structured engagement plan ensures the red team simulates realistic adversary behavior.
 
 
 ## When to Use
@@ -50,7 +50,7 @@ Red team engagement planning is the foundational phase that defines scope, objec
 ## Objectives
 
 - Define clear engagement scope including in-scope and out-of-scope assets, networks, and personnel
-- Establish Rules of Engagement (ROE) with emergency stop procedures, communication channels, and legal boundaries
+- Establish Rules of Engagement (ROE) with emergency stop procedures and communication channels
 - Select appropriate threat profiles from the MITRE ATT&CK framework aligned to the organization's threat landscape
 - Create a detailed attack plan mapping adversary TTPs to engagement objectives
 - Develop deconfliction procedures with the organization's SOC/blue team
@@ -74,7 +74,6 @@ Red team engagement planning is the foundational phase that defines scope, objec
 2. **Restrictions**: Systems/networks that must not be touched (e.g., production databases, medical devices)
 3. **Communication Plan**: Primary and secondary contact channels, escalation procedures
 4. **Emergency Procedures**: Code word for immediate cessation, incident response coordination
-5. **Legal Authorization**: Signed authorization letters, get-out-of-jail letters for physical tests
 6. **Data Handling**: How sensitive data discovered during testing will be handled and destroyed
 7. **Timeline**: Start/end dates, blackout windows, reporting deadlines
 
@@ -96,7 +95,6 @@ Map organizational threats using MITRE ATT&CK Navigator to select relevant adver
 2. Identify crown jewels and critical business assets
 3. Review previous security assessments and audit findings
 4. Define success criteria and engagement objectives
-5. Draft Rules of Engagement document
 
 ### Phase 2: Threat Modeling
 
@@ -117,7 +115,6 @@ Map organizational threats using MITRE ATT&CK Navigator to select relevant adver
 ### Phase 4: Documentation and Approval
 
 1. Compile engagement plan document
-2. Review with legal counsel
 3. Obtain executive sponsor signature
 4. Brief red team operators on ROE and restrictions
 5. Distribute emergency contact cards
@@ -132,19 +129,16 @@ Map organizational threats using MITRE ATT&CK Navigator to select relevant adver
 
 ## Validation Criteria
 
-- [ ] Signed Rules of Engagement document
 - [ ] Defined scope with explicit in/out boundaries
 - [ ] Selected threat profile with mapped MITRE ATT&CK techniques
 - [ ] Emergency stop procedures tested and verified
 - [ ] Communication plan distributed to all stakeholders
-- [ ] Legal authorization obtained and filed
 - [ ] Red team operators briefed and acknowledged ROE
 
 ## Common Pitfalls
 
 1. **Scope Creep**: Expanding testing beyond approved boundaries during execution
 2. **Inadequate Deconfliction**: SOC investigating red team activity as real incidents
-3. **Missing Legal Authorization**: Testing without proper signed authorization
 4. **Unrealistic Threat Models**: Simulating threats irrelevant to the organization
 5. **Poor Communication**: Failing to maintain contact with stakeholders during engagement
 

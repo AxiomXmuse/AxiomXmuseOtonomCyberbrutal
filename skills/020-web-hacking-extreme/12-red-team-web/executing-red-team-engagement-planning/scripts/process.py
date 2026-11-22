@@ -486,11 +486,6 @@ Rules of Engagement document.
 **Title:** _________________________
 **Date:** _________________________
 
-### 9.2 Get-Out-of-Jail Letter
-A separate authorization letter will be provided to each red team operator
-for physical security testing activities. This letter authorizes the bearer
-to conduct authorized security testing and provides emergency contact
-information for verification.
 
 ---
 

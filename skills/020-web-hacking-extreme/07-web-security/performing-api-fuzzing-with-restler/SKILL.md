@@ -47,7 +47,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization specifying the target API and acceptable testing scope
 - Python 3.12+ and .NET 8.0 runtime installed
 - RESTler downloaded from https://github.com/microsoft/restler-fuzzer
 - OpenAPI/Swagger specification (v2 or v3) for the target API

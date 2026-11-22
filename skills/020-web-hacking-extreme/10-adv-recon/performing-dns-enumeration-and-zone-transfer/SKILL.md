@@ -41,7 +41,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization to perform DNS enumeration against the target domain
 - DNS enumeration tools installed: dig, nslookup, host, dnsrecon, dnsenum, subfinder, amass
 - Network access to the target's DNS servers (UDP/TCP port 53)
 - Wordlist for subdomain brute-forcing (SecLists dns-wordlist or similar)

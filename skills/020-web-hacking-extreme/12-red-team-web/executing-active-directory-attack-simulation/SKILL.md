@@ -51,7 +51,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization specifying the target AD domain, testing constraints, and any off-limits accounts or systems
 - Low-privilege domain user account (minimum starting point) to simulate realistic attacker position
 - Testing workstation joined to the domain or network access to domain controllers on ports 88, 135, 139, 389, 445, 636, 3268, 3269
 - BloodHound Community Edition or Enterprise with SharpHound/AzureHound collectors

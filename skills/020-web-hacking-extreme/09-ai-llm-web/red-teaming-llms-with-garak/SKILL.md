@@ -54,7 +54,7 @@ This skill maps to the MITRE ATLAS techniques **AML.T0051 (LLM Prompt Injection)
   python -m pip install -U git+https://github.com/NVIDIA/garak.git@main
   ```
 - An API key for the target if probing a hosted model (for example `export OPENAI_API_KEY="sk-..."`).
-- Written authorization to test the target, and awareness of token cost (probes generate thousands of calls).
+- Awareness of token cost (probes generate thousands of calls).
 
 ## Objectives
 

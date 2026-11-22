@@ -45,7 +45,6 @@ Sources: Palo Alto Networks "Leaky Vessels" advisory; Sysdig "New runc vulnerabi
 
 ## Prerequisites
 
-- Authorization (signed rules of engagement) covering host/node compromise
 - A foothold: a shell inside a target container
 - Reconnaissance utilities inside the container or staged in:
   ```bash

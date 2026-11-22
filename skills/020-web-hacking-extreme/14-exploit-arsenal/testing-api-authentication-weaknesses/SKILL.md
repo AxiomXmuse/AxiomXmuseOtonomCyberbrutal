@@ -46,7 +46,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization specifying target API and authentication mechanisms in scope
 - Valid test credentials for at least two user roles (regular user, admin)
 - Burp Suite Professional with JWT-related extensions (JSON Web Tokens, JWT Editor)
 - Python 3.10+ with `requests`, `PyJWT`, and `jwt` libraries

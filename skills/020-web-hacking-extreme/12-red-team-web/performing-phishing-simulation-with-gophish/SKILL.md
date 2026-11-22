@@ -74,7 +74,6 @@ GoPhish is an open-source phishing simulation framework used by security teams t
 ## Prerequisites
 - GoPhish binary or Docker image (https://github.com/gophish/gophish)
 - SMTP server or relay for sending test emails
-- Written authorization from management for phishing simulation
 - Target email list (HR-approved)
 - SSL/TLS certificate for landing pages
 - Python 3.8+ for automation scripts

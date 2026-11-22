@@ -38,7 +38,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- **Authorization**: Written penetration testing agreement covering directory enumeration
 - **ffuf**: Fast web fuzzer (`go install github.com/ffuf/ffuf/v2@latest`)
 - **Gobuster**: Directory brute-force tool (`apt install gobuster`)
 - **Burp Suite**: For intercepting and analyzing requests and responses

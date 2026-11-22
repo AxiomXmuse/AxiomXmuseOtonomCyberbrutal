@@ -60,7 +60,6 @@ Sections to include:
    - Escalation matrix
    - Incident response coordination
 7. Legal Authorization
-   - Get-out-of-jail letter template
    - Signed authorization from executive sponsor
 8. Data Handling
    - Sensitive data discovery procedures

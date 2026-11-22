@@ -40,7 +40,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- **Authorization**: Written penetration testing agreement for the target
 - **Burp Suite Professional**: With InQL extension for GraphQL scanning
 - **GraphQL Voyager**: Schema visualization tool
 - **InQL Scanner**: Burp extension for GraphQL introspection and query generation

@@ -47,7 +47,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization specifying the WebSocket endpoint and testing scope
 - Burp Suite Professional with WebSocket interception capability
 - Python 3.10+ with `websockets` and `asyncio` libraries
 - Browser developer tools for observing WebSocket handshakes and frames

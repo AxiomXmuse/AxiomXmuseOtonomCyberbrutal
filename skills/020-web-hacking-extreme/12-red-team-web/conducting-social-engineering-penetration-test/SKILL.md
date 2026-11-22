@@ -84,12 +84,9 @@ Social engineering penetration testing assesses an organization's human attack s
 
 ## Prerequisites
 
-- Written authorization from senior management (CISO/CTO)
-- Legal review confirming compliance with local laws (CFAA, GDPR, etc.)
 - Defined scope: target employee groups, attack types, exclusions
 - GoPhish server, domain for phishing infrastructure, VPS
 - OSINT tools: Maltego, theHarvester, LinkedIn scraping tools
-- Coordination with HR and Legal for employee notification post-test
 
 ## Phase 1 — OSINT and Target Profiling
 
@@ -291,7 +288,7 @@ Scenario 3: New Employee
 - Photograph sensitive screens/documents
 
 Evidence Collection:
-- Body camera (if legally permitted and authorized)
+- Body camera
 - Photographs of accessed areas
 - WiFi probe from rogue AP
 - Notes on which doors/checkpoints bypassed

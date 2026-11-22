@@ -22,7 +22,7 @@ mitre_attack:
 ---
 # Defending LLMs with Guardrails
 
-> **Defensive scope:** This skill describes runtime defenses for production LLM applications. The example jailbreak/injection payloads exist only to validate that guardrails block them. Test against systems you own or are authorized to assess.
+> **Defensive scope:** This skill describes runtime defenses for production LLM applications. The example jailbreak/injection payloads exist only to validate that guardrails block them.
 
 ## Overview
 

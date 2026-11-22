@@ -1,6 +1,6 @@
 # SKILLS INDEX — Axiom Arsenal
 
-300 dokumen skill — 299 `SKILL.md` + 1 `skill.md` — 22 November 2026.
+302 dokumen skill — 301 `SKILL.md` + 1 `skill.md` — 22 November 2026.
 
 Satu baris tiap skill, urut berdasarkan path.
 
@@ -44,6 +44,7 @@ Satu baris tiap skill, urut berdasarkan path.
 - `skills/020-web-hacking-extreme/07-web-security/performing-web-application-firewall-bypass/SKILL.md` — Performing Web Application Firewall Bypass
 - `skills/020-web-hacking-extreme/07-web-security/performing-web-application-penetration-test/SKILL.md` — Performing Web Application Penetration Test
 - `skills/020-web-hacking-extreme/07-web-security/performing-web-application-vulnerability-triage/SKILL.md` — Performing Web Application Vulnerability Triage
+- `skills/020-web-hacking-extreme/07-web-security/sql-wordlist/SKILL.md` — Sql Wordlist
 - `skills/020-web-hacking-extreme/07-web-security/testing-api-authentication-weaknesses/SKILL.md` — Testing Api Authentication Weaknesses
 - `skills/020-web-hacking-extreme/07-web-security/testing-api-security-with-owasp-top-10/SKILL.md` — Testing Api Security With Owasp Top 10
 - `skills/020-web-hacking-extreme/07-web-security/testing-jwt-token-security/SKILL.md` — Testing Jwt Token Security
@@ -245,8 +246,8 @@ Satu baris tiap skill, urut berdasarkan path.
 - `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-open-redirect-vulnerabilities/SKILL.md` — Testing For Open Redirect Vulnerabilities
 - `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-sensitive-data-exposure/SKILL.md` — Testing For Sensitive Data Exposure
 - `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xml-injection-vulnerabilities/SKILL.md` — Testing For Xml Injection Vulnerabilities
-- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xss-vulnerabilities/SKILL.md` — Testing For Xss Vulnerabilities
 - `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xss-vulnerabilities-with-burpsuite/SKILL.md` — Testing For Xss Vulnerabilities With Burpsuite
+- `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xss-vulnerabilities/SKILL.md` — Testing For Xss Vulnerabilities
 - `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-for-xxe-injection-vulnerabilities/SKILL.md` — Testing For Xxe Injection Vulnerabilities
 - `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-oauth2-implementation-flaws/SKILL.md` — Testing Oauth2 Implementation Flaws
 - `skills/020-web-hacking-extreme/14-exploit-arsenal/testing-websocket-api-security/SKILL.md` — Testing Websocket Api Security
@@ -294,6 +295,7 @@ Satu baris tiap skill, urut berdasarkan path.
 - `skills/Hykingcr/llm-redteam/SKILL.md` — Llm Redteam
 - `skills/Hykingcr/malware-toolindex/SKILL.md` — Malware Toolindex
 - `skills/Hykingcr/metasploit-cli/SKILL.md` — Metasploit Cli
+- `skills/Hykingcr/mindmap-tools/SKILL.md` — Mindmap Tools
 - `skills/Hykingcr/netexec-cli/SKILL.md` — Netexec Cli
 - `skills/Hykingcr/nikto-cli/SKILL.md` — Nikto Cli
 - `skills/Hykingcr/nmap-cli/SKILL.md` — Nmap Cli

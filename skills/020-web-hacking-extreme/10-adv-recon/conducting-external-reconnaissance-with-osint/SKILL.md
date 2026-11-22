@@ -44,7 +44,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization to perform reconnaissance against the target organization
 - Dedicated research workstation with a VPN or Tor for anonymized queries when required
 - OSINT framework tools installed: Amass, theHarvester, Shodan CLI, Recon-ng, SpiderFoot
 - API keys for Shodan, Censys, SecurityTrails, Hunter.io, VirusTotal, and GitHub for enhanced results

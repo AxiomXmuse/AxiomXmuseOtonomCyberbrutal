@@ -46,7 +46,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization specifying the OAuth provider and client applications in scope
 - Test OAuth client registered with the authorization server
 - Burp Suite Professional for intercepting OAuth redirects and token flows
 - Python 3.10+ with `requests` and `oauthlib` libraries

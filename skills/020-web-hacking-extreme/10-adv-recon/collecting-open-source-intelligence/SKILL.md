@@ -59,7 +59,6 @@ Use this skill when:
 Establish the intelligence requirement (IR) before collecting. Document:
 - Target: threat actor group, malicious domain, IP range, or organization
 - Priority Intelligence Requirements (PIRs): What specific questions need answering?
-- Legal authority: Passive OSINT is legal; active probing requires authorization
 - Data handling: TLP classification for collected intelligence
 
 ### Step 2: Passive DNS and WHOIS Investigation
@@ -147,4 +146,3 @@ python sf.py -s evil-domain.com -m sfp_shodan,sfp_virustotal,sfp_passivetotal \
 - **Confirmation bias in graph analysis**: Maltego graphs can create false connections. Verify each pivot independently before treating as confirmed.
 - **Outdated data**: WHOIS privacy services and bulletproof hosting rotate frequently. Always check data timestamps — 6-month-old passive DNS may no longer be valid.
 - **Attribution overconfidence**: Infrastructure overlap does not guarantee same threat actor. False flag operations deliberately share indicators across groups.
-- **Legal boundaries**: Some OSINT tools perform active scans (port scanning, banner grabbing). Confirm tool behavior before use against external targets.

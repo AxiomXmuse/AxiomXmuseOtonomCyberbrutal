@@ -42,7 +42,6 @@ Sliver also ships an **armory** — an alias and extension package manager that 
 - Root or sudo for binding privileged ports (443/53) and installing the multiplayer daemon
 - Outbound/inbound network reachability matching the chosen C2 protocol
 - Familiarity with Active Directory and post-exploitation concepts
-- Signed authorization / rules of engagement
 
 Install Sliver server with the official one-liner, or download release binaries:
 

@@ -41,7 +41,6 @@ This skill drives AADInternals through a defensive-validation lens: confirm what
 
 ## Prerequisites
 
-- Written authorization covering identity-attack and federation-backdoor testing
 - Windows host with PowerShell 5.1+ (or PowerShell 7 on the supported subset)
 - For backdoor/federation tests: Global Administrator (or equivalent) in the target tenant, in scope per the ROE
 - Install the module from the PowerShell Gallery:
@@ -131,7 +130,7 @@ Get-AADIntADFSConfiguration -Server adfs.target.com
 ```
 
 ### Step 6: Federation backdoor / Golden SAML (authorized only)
-Convert a domain to a backdoor by setting a known `IssuerUri`, then forge a SAML token for a target user using that domain's `ImmutableId`. **Only in a controlled tenant with explicit authorization.**
+Convert a domain to a backdoor by setting a known `IssuerUri`, then forge a SAML token for a target user using that domain's `ImmutableId`.
 
 ```powershell
 # Requires a Global Admin token (AAD Graph) cached in Step 3

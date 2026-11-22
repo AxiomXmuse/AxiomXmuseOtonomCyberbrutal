@@ -57,7 +57,7 @@ This skill is the **strategy and operations layer** that sits above tactical dep
 
 - Familiarity with MITRE ATT&CK (tactics, techniques, and how to read a technique page), because Engagement Activities are mapped to the ATT&CK techniques they expose.
 - A documented set of critical assets and an understanding of which adversaries plausibly target them (a threat model or prioritized threat actor list).
-- Executive sponsorship and a written legal review. Engagement operations interact with live adversaries and raise entrapment, evidence-handling, and liability questions; **never run an engagement operation without legal sign-off.**
+- Executive sponsorship. Engagement operations interact with live adversaries and raise entrapment, evidence-handling, and liability questions.
 - An existing detection and response capability. Engage is an additive strategy, not a replacement for defense-in-depth; if a defense-in-depth control fails, engagement keeps you in control rather than blind.
 - Access to the live matrix at https://engage.mitre.org/matrix/ for canonical Activity names and IDs.
 

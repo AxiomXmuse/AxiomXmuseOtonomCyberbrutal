@@ -220,7 +220,6 @@ as described in this document against [ORGANIZATION NAME] assets.
 - [ ] Signed Rules of Engagement
 - [ ] Master Services Agreement
 - [ ] Non-Disclosure Agreement
-- [ ] Get-Out-of-Jail Letters (physical testing)
 - [ ] Insurance Certificate
 
 ---

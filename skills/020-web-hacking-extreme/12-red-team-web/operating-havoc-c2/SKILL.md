@@ -41,7 +41,6 @@ Havoc's behavior is driven by a **Yaotl profile** — a configuration language f
 - A dedicated Linux host (Debian/Ubuntu/Kali) for the team server
 - Go 1.18+ for the team server; Python 3.10 and Qt5 libraries for the client
 - mingw-w64 and nasm for cross-compiling the Demon for Windows targets
-- Signed authorization / rules of engagement
 
 Install dependencies and build from source:
 

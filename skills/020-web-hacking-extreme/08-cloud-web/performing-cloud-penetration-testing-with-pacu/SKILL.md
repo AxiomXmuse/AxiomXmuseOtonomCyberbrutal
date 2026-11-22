@@ -44,7 +44,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization from the AWS account owner with defined scope and rules of engagement
 - Pacu v1.5+ installed (`pip install pacu`)
 - Test AWS credentials with limited starting permissions (simulates compromised credential scenario)
 - CloudTrail logging enabled to capture all Pacu activity for post-engagement review

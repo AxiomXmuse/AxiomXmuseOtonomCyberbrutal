@@ -57,7 +57,6 @@ Havoc is a modern, open-source post-exploitation command and control (C2) framew
 - Kali Linux 2023+ (for Client)
 - VPS providers: DigitalOcean, Linode, or AWS EC2 (minimum 2GB RAM, 2 vCPU)
 - Domain name aged 30+ days with valid SSL certificate
-- Written authorization for red team engagement
 
 ## Architecture
 

@@ -48,7 +48,6 @@ Dark web monitoring involves systematically scanning Tor hidden services, underg
 - Python 3.9+ with `requests`, `stem`, `beautifulsoup4`, `stix2` libraries
 - Understanding of Tor hidden service architecture (.onion domains)
 - API access to dark web monitoring services (Flare, SpyCloud, DarkOwl, Intel 471)
-- Awareness of legal and ethical boundaries for dark web research
 - Isolated VM for dark web browsing (no personal or corporate identity leakage)
 
 ## Key Concepts
@@ -257,7 +256,6 @@ def generate_dark_web_report(findings, organization):
 - Credential leak monitoring returns results from HIBP and paste sites
 - Ransomware leak site monitoring identifies relevant mentions
 - Dark web intelligence report generated with actionable recommendations
-- All monitoring performed within legal and ethical boundaries
 - OPSEC maintained: no personal or corporate identity exposure
 
 ## References

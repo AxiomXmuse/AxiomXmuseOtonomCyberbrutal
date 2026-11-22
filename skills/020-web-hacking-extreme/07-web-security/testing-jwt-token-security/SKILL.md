@@ -40,7 +40,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- **Authorization**: Written penetration testing agreement for the target
 - **jwt_tool**: JWT attack toolkit (`pip install jwt_tool` or `git clone https://github.com/ticarpi/jwt_tool.git`)
 - **Burp Suite Professional**: With JSON Web Token extension from BApp Store
 - **Python PyJWT**: For scripting custom JWT attacks (`pip install pyjwt`)

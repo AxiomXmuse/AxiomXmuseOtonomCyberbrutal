@@ -58,7 +58,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Written authorization from the cloud account owner and scope definition document
 - AWS, Azure, or GCP penetration testing policy acknowledgment (AWS no longer requires pre-approval for most services)
 - Isolated testing account or explicitly scoped production account with breakglass procedures
 - Cloud-specific offensive tooling installed: Pacu (AWS), ScoutSuite, Prowler, CloudFox

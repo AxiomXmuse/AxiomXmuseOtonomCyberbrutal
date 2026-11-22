@@ -41,7 +41,6 @@ The defining property red teams exploit: access tokens minted via the device-cod
 
 ## Prerequisites
 
-- Written authorization / rules of engagement explicitly permitting phishing and token theft against the target tenant
 - A controlled pretext-delivery channel (sanctioned phishing infrastructure or an internal test mailbox)
 - Linux or Windows attacker host with Python 3.8+ and PowerShell 7+
 - TokenTactics (PowerShell) and ROADtools (Python) installed:

@@ -48,7 +48,6 @@ mitre_attack:
 - Building DNS anomaly detection rules for SOC/SIEM deployment
 
 
-**DISCLAIMER**: DNS tunneling tools referenced in this skill (Iodine, dnscat2, dns2tcp) are dual-use. They have legitimate uses (bypassing captive portals, security research) and malicious uses (C2 channels, exfiltration). Only deploy detection in networks you are authorized to monitor. Testing tunneling tools requires explicit authorization.
 
 ## Prerequisites
 

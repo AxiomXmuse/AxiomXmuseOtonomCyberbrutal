@@ -52,7 +52,6 @@ mitre_attack:
 
 ## Prerequisites
 
-- Executive-level written authorization with clearly defined objectives, scope, and off-limits systems
 - Red team command and control (C2) infrastructure: primary and backup C2 channels with domain fronting or redirectors
 - Operator workstations with OPSEC-hardened toolsets (Cobalt Strike, Sliver, Brute Ratel, or Mythic)
 - Threat intelligence on adversary groups relevant to the target organization for adversary emulation planning
