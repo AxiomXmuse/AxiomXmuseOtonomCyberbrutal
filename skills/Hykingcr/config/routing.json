@@ -1,7 +1,7 @@
 {
  "schemaVersion": "1.0",
  "meta": {
-  "description": "HYKINGCR single source of truth for all offensive skill routes. R0-R45 merged from reverse-skill (MIT); H01-H14 + H-default are hykingcr offensive extensions. W01-W16 route 020-web-hacking-extreme (15 categories) + HackinMode. Scoring: highest keyword match score wins; ties resolved by priority array order; no match -> H-default fallback.",
+  "description": "HYKINGCR single source of truth for all offensive skill routes. R0-R45 merged from reverse-skill (MIT); H01-H14 + H-default are hykingcr offensive extensions. W01-W18 route 020-web-hacking-extreme (15 categories) + HackinMode + SQL Wordlist + Mindmap Tools. Scoring: highest keyword match score wins; ties resolved by priority array order; no match -> H-default fallback.",
   "fallbackId": "H-default",
   "scoring": "Each keyword rule scores on match; highest-scoring route wins; ties resolved by priority order; no match falls back to fallbackId.",
   "sources": [
