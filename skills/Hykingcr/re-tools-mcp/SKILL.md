@@ -83,7 +83,7 @@ repos/rea/bridge/
 ├── ghidra/          ← Ghidra bridge (HTTP JSON-RPC)
 ├── hopper_bridge.py ← Hopper Disassembler bridge
 ├── pwndbg/          ← pwndbg GDB plugin bridge
-├── pwntools/        ← pwntools CTF exploit library bridge
+├── pwntools/ ← pwntools exploit library bridge
 └── android/         ← ADB/Frida Android bridge
 ```
 

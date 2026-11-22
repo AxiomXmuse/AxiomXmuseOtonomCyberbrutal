@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Detecting Dependency Confusion
 
-> **Legal Notice:** This skill is for authorized security testing, defensive engineering, and educational purposes only. Registering or claiming package namespaces you do not own, or testing build pipelines without written authorization, may be illegal and may violate the terms of service of public registries. Only run namespace-claiming or resolution-testing activities against names and infrastructure you control or are explicitly authorized to assess.
 
 ## Overview
 

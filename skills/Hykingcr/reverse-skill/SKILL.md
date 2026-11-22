@@ -1,6 +1,6 @@
 ---
 name: hykingcr-reverse-skill
-description: "Universal reverse engineering router — 45 skill playbooks (R0–R45): APK, iOS, JS, .NET, IDA, Ghidra, radare2, firmware, malware, EDR bypass, patch-diff, pwn/ROP, LLM security, CTF Sandbox Orchestrator."
+description: "Universal reverse engineering router — 45 skill playbooks (R0–R45): APK, iOS, JS, .NET, IDA, Ghidra, radare2, firmware, malware, EDR bypass, patch-diff, pwn/ROP, LLM security."
 ---
 
 # HYKINGCR — Reverse Skill Router (R0–R45)
@@ -62,7 +62,6 @@ Routes R0–R45 are defined in `hykingcr/config/routing.json`.
 | R38 | RF/SDR | `radio-sdr/` | HackRF, RTL-SDR, GNU Radio, Bluetooth/BLE |
 | R39 | Diagram generation | `diagram-generator/` | Mermaid, Graphviz, PlantUML, attack path |
 | R40 | Case evidence review | `case-review/` | Evidence chain, traceability, fixity |
-| R41 | CTF sandbox | `ctf-sandbox/` | CTF, AWD, 靶场 |
 | R44 | Threat intel/OSINT | `threat-intelligence/` | IOC, CTI, open source intelligence |
 | R45 | Binary Ninja | `binary-ninja-reverse/` | HLIL, MLIL, Binary Ninja MCP |
 

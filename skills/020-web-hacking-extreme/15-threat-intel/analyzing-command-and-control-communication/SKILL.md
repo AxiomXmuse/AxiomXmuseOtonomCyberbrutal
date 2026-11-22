@@ -41,11 +41,10 @@ mitre_attack:
 - Analyzing encrypted or encoded C2 traffic to understand the command set and data format
 - Attributing malware to a threat actor based on C2 infrastructure patterns and tooling
 
-**Do not use** for general network anomaly detection; this is specifically for understanding known or suspected C2 protocols from malware analysis.
 
 ## Prerequisites
 
-- PCAP capture of malware network traffic (from sandbox, network tap, or full packet capture)
+- PCAP capture of malware network traffic (from analysis, network tap, or full packet capture)
 - Wireshark/tshark for packet-level analysis
 - Reverse engineering tools (Ghidra, dnSpy) for understanding C2 code in the malware binary
 - Python 3.8+ with `scapy`, `dpkt`, and `requests` for protocol analysis and replay

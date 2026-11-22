@@ -50,7 +50,7 @@ Load only what you need — context window vs. capability tradeoff:
 | `monitor` | ~10 | Process/memory monitor, resource usage, event log |
 | `deobfuscator` | ~15 | JS/native deobfuscation — control flow simplify, string decrypt |
 | `crypto` | ~10 | Crypto algorithm detection, key extraction, cipher analysis |
-| `stealth` | ~10 | Anti-detection: hook masking, sandbox evasion indicators |
+| `stealth` | ~10 | Anti-detection: hook masking, detection evasion indicators |
 | `detector` | ~10 | Frida/debugger/root/emulator detection probe |
 | `binary-secrets` | ~10 | Hardcoded credential/key extraction from binaries |
 | `jadx-search` | ~10 | Jadx Java decompiler search integration |

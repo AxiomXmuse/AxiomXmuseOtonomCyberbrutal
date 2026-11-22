@@ -101,7 +101,7 @@ Use the `scripts/process.py` to automate URL scanning, extract IOCs, and cross-r
 - **VirusTotal URL Scanner**: https://www.virustotal.com/
 - **PhishTank**: https://phishtank.org/
 - **Google Safe Browsing**: https://transparencyreport.google.com/safe-browsing/search
-- **Any.Run**: https://any.run/ (interactive sandbox)
+- **Any.Run**: https://any.run/ (interactive analysis)
 - **Hybrid Analysis**: https://www.hybrid-analysis.com/
 
 ## Validation

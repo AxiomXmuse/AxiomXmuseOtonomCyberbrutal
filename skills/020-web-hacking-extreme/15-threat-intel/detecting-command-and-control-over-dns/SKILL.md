@@ -47,7 +47,6 @@ mitre_attack:
 - Monitoring TXT record abuse for command delivery or staged payload download
 - Building DNS anomaly detection rules for SOC/SIEM deployment
 
-**Do not use** for general DNS performance monitoring or DNS configuration auditing; use DNS health monitoring tools for those. For HTTP/HTTPS-based C2 detection, use network traffic analysis skills focused on web protocols.
 
 **DISCLAIMER**: DNS tunneling tools referenced in this skill (Iodine, dnscat2, dns2tcp) are dual-use. They have legitimate uses (bypassing captive portals, security research) and malicious uses (C2 channels, exfiltration). Only deploy detection in networks you are authorized to monitor. Testing tunneling tools requires explicit authorization.
 

@@ -68,7 +68,6 @@ mitre_f3:
 - When monitoring for credential stuffing or brute force attacks against cloud identities
 - When assessing the scope of a credential compromise after initial detection
 
-**Do not use** for preventing credential compromise (use MFA, credential rotation, and secrets management), for detecting application-level credential theft (use application security monitoring), or for endpoint credential harvesting detection (use EDR tools).
 
 ## Prerequisites
 

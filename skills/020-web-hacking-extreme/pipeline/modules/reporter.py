@@ -224,7 +224,7 @@ class ReportEngine:
             "cross_site_scripting": "<li>Implement Content-Security-Policy and output encoding</li>",
             "ssrf": "<li>Whitelist allowed URLs and disable internal network access</li>",
             "lfi": "<li>Validate file paths and use allowlist for includes</li>",
-            "ssti": "<li>Sanitize template input and disable sandbox escapes</li>",
+            "ssti": "<li>Sanitize template input and disable escapes</li>",
             "command_injection": "<li>Never pass user input to system commands</li>",
             "idor": "<li>Implement proper access control checks</li>",
             "open_redirect": "<li>Validate redirect URLs against an allowlist</li>",

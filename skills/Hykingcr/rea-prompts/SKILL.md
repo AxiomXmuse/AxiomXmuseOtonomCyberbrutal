@@ -35,7 +35,7 @@ This skill is an **index/dispatcher**. When a pack is relevant:
 | reap-14 | Software Cracking Research | License protection analysis: dongle, serial, online activation | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-14-software-cracking-research/SKILL.md` |
 | reap-15 | Version Comparison & Crash | Binary diff across versions, crash reproduction, regression | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-15-version-comparison-and-crash-work/SKILL.md` |
 | reap-16 | Long Running Investigations | Multi-session RE workflow, evidence tracking, progressive analysis | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-16-long-running-investigations/SKILL.md` |
-| reap-17 | Malware Analysis | Malware triage, sandbox evasion detection, IOC extraction, YARA | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-17-malware-analysis/SKILL.md` |
+| reap-17 | Malware Analysis | Malware triage, detection evasion, IOC extraction, YARA | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-17-malware-analysis/SKILL.md` |
 | reap-18 | Advanced Binary Exploration | Obfuscated binary, OLLVM, VM packer, control flow deobfuscation | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-18-advanced-binary-exploration-and-deobfuscation/SKILL.md` |
 | reap-19 | Kernel & Driver Exploitation | Kernel exploit dev: UAF, pool overflow, IOCTL misuse, privilege escalation | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-19-kernel-and-driver-exploitation-research/SKILL.md` |
 | reap-20 | Advanced Software Cloning | Full feature reconstruction from stripped binary | `$OMP_REPOS_ROOT/REA-Prompts/Skills/reap-20-advanced-software-cloning-and-feature-reconstruction/SKILL.md` |

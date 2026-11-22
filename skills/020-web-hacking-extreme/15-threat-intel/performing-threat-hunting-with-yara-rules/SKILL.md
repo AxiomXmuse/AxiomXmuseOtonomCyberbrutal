@@ -42,13 +42,12 @@ malware families, suspicious patterns, and IOC matches.
 ## When to Use
 
 - Proactively hunting for unknown malware variants across network shares, endpoints, and email attachments
-- Scanning quarantine directories or sandbox outputs for malware family classification
+- Scanning quarantine directories or analysis outputs for malware family classification
 - Searching process memory dumps for injected code or in-memory-only payloads
 - Validating threat intelligence IOCs against a large corpus of collected samples
 - Triaging incident response artifacts to identify known malware families quickly
 - Building automated detection pipelines that scan new files on ingestion
 
-**Do not use** for real-time endpoint protection (use EDR agents instead); YARA scanning is best suited for batch hunting, triage, and post-collection analysis where scan latency is acceptable.
 
 ## Prerequisites
 
@@ -430,4 +429,4 @@ print("YARA hunting pipeline active. Monitoring /mnt/quarantine/ ...")
 - Validate yarGen output rules compile and produce meaningful matches against the input samples
 - Check that community rule sets load without critical syntax errors after filtering
 - Confirm the continuous hunting pipeline generates alerts in JSONL format when test files are dropped
-- Cross-reference YARA matches against VirusTotal or sandbox results to validate detection accuracy
+- Cross-reference YARA matches against VirusTotal or analysis results to validate detection accuracy

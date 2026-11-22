@@ -57,7 +57,7 @@ bash '${CLAUDE_SKILL_DIR}/scripts/launch.sh' https://target.com
 | 01 | RECON (CORE) | 4 | httpx, katana, ffuf, param-miner |
 | 02 | WAF BYPASS | 3 | cloudflare, akamai, aws |
 | 03 | EXPLOIT (CORE) | 9 | smuggling, cache-poison, race, websocket, ssrf, graphql |
-| 04 | CLIENT-SIDE | 7 | dom-clobbering, prototype-pollution, postmessage, wasm, nodejs-escape |
+| 04 | CLIENT-SIDE | 6 | dom-clobbering, prototype-pollution, postmessage, wasm |
 | 05 | AUTH & OAUTH | 3 | pkce-downgrade, consent-phishing, token-replay |
 | 06 | AUTOMATION | 9 | nuclei, dalfox, xsstrike, ffuf, burp-bambda, exploit-chain |
 | 07 | WEB SECURITY (SUPER) | 45 | OWASP, bola, bfla, sqli, ssti, deserialize, mass-assign |
@@ -80,7 +80,7 @@ Pipeline phases: `recon → detection → waf-bypass → exploitation → chain 
 | recon, httpx, katana, fuzz, param miner | `01-recon/<skill>/scripts/agent.py` | run |
 | waf, cloudflare, akamai, aws waf | `02-waf-bypass/<skill>/scripts/agent.py` | run |
 | smuggling, cache poison, race, ssrf tunnel, graphql dos | `03-exploit/<skill>/scripts/agent.py` | run |
-| dom, prototype pollution, postmessage, wasm, nodejs sandbox | `04-client-side/<skill>/scripts/agent.py` | run |
+| dom, prototype pollution, postmessage, wasm | `04-client-side/<skill>/scripts/agent.py` | run |
 | oauth, pkce, consent phishing, token replay | `05-auth-oauth/<skill>/scripts/agent.py` | run |
 | nuclei, ffuf, dalfox, burp, chain, xsstrike, turbo-intruder | `06-automation/<skill>/scripts/agent.py` | run |
 | api security, bola, bfla, shadow api, sqli, ssti, deserialize | `07-web-security/<skill>/scripts/agent.py` | run |

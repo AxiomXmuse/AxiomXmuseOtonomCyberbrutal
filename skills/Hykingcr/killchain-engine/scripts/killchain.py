@@ -104,7 +104,7 @@ CHAIN_PATTERNS: dict[str, dict[str, Any]] = {
             "Identify template engine (Jinja2, Twig, Freemarker, Pebble, Velocity)",
             "Test {{7*7}} / ${7*7} / #{7*7} payloads",
             "Escalate to OS command via __class__.__mro__ chain (Python)",
-            "Attempt sandbox escape for full RCE",
+            "Attempt escape for full RCE",
         ],
     },
     "race_condition_business": {

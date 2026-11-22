@@ -27,7 +27,6 @@ skills/Hykingcr/
 ├── rea-prompts/                ← 26 reverse-engineering prompt packs
 ├── geo-osint/                  ← Photo geolocation OSINT
 ├── binary-recon/               ← Binary/game fingerprinting
-├── ctf-toolindex/              ← CTF tool reference index
 ├── malware-toolindex/          ← Malware analysis tool reference
 ├── browser-act/                ← Browser automation CLI for stealth/multi-account
 └── chrome-devtools-axi/        ← Chromium DevTools CDP diagnostics interface
@@ -50,11 +49,10 @@ skills/Hykingcr/
 | rea, rea-agents, reverse anything, frida rea, gdb rea, rizin, apktool jadx, flutter dart, evm bytecode, pcap tshark, il2cpp, go binary | `re-tools-mcp/SKILL.md` | чтение |
 | llm red team, llm redteam, deepteam, prompt injection test, jailbreak test, pii leakage, shell injection llm, ssrf llm, crescendo jailbreak, tree jailbreak, guardrails, llm vulnerability, owasp llm, nist ai | `llm-redteam/SKILL.md` | чтение → запуск |
 | reap, rea prompt, reap-17, reap-10, vulnerability research prompt, malware analysis prompt, binary exploration prompt, anti-cheat research, firmware prompt, kernel exploit prompt | `rea-prompts/SKILL.md` | чтение |
-| ctf tools list, ctf toolbox, what tool for ctf, pwntools, rop gadget, ctf crypto tool, ctf forensics tool, ctf bruteforce | `ctf-toolindex/SKILL.md` | чтение |
-| malware analysis tool, yara cuckoo, volatility, sandbox analysis, threat intel tool, ioc extract, malware collection, virustotal, hybrid analysis | `malware-toolindex/SKILL.md` | чтение |
+| malware analysis tool, yara cuckoo, volatility, threat intel tool, ioc extract, malware collection, virustotal, hybrid analysis | `malware-toolindex/SKILL.md` | чтение |
 | geolocate photo, geolocation osint, where is this photo, terrain match, shadow sun location, satellite imagery search, board candidate, exif gps, osm overpass, reverse image search location | `geo-osint/SKILL.md` | чтение → запуск |
 | binary fingerprint, game scan, anti-cheat detect, engine detect, pe header, unity detect, unreal detect, elf scan, game recon, app fingerprint | `binary-recon/SKILL.md` | чтение → запуск |
-| apk, smali, jadx, apktool, android reverse, ios, ipa, objection, mobsf, mobile reverse, firmware, binwalk, iot, malware, yara, radare2, r2, ghidra, ida, decompile, disassembl, pwn, rop, ret2libc, ctf, awd, edr, bloodhound, windows ad, digital forensics, code audit, threat hunt, protocol reverse | `reverse-skill/SKILL.md` | чтение → маршрут R0–R45 |
+| apk, smali, jadx, apktool, android reverse, ios, ipa, objection, mobsf, mobile reverse, firmware, binwalk, iot, malware, yara, radare2, r2, ghidra, ida, decompile, disassembl, pwn, rop, ret2libc, awd, edr, bloodhound, windows ad, digital forensics, code audit, threat hunt, protocol reverse | `reverse-skill/SKILL.md` | чтение → маршрут R0–R45 |
 
 ## Вызов маршрутизатора
 

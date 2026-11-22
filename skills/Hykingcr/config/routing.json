@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "meta": {
-    "description": "HYKINGCR single source of truth for all offensive skill routes. R0–R45 merged from reverse-skill (MIT); H01–H14 + H-default are hykingcr offensive extensions. Scoring: highest keyword match score wins; ties resolved by priority array order; no match → H-default fallback.",
+    "description": "HYKINGCR single source of truth for all offensive skill routes. R0-R45 merged from reverse-skill (MIT); H01-H14 + H-default are hykingcr offensive extensions. W01-W16 route 020-web-hacking-extreme (15 categories) + HackinMode. Scoring: highest keyword match score wins; ties resolved by priority array order; no match -> H-default fallback.",
     "fallbackId": "H-default",
     "scoring": "Each keyword rule scores on match; highest-scoring route wins; ties resolved by priority order; no match falls back to fallbackId.",
     "sources": [
@@ -101,13 +101,7 @@
       "skill": "reverse-skill/SKILL.md",
       "keywords": [
         {
-          "must": "malware|yara|virus.?sample|pe-?sieve|cape.?sandbox|恶意.?软件|病毒.?样本|木马.?分析|恶意.?样本|样本.?分析|ransomware|勒索|webshell|后门|backdoor"
-        },
-        {
-          "must": "sandbox",
-          "mustAll": [
-            "malware|virus|恶意|木马|样本|cape|any\\.run|triage"
-          ]
+          "must": "malware|yara|virus.?sample|pe-?sieve|恶意.?软件|病毒.?样本|木马.?分析|恶意.?样本|样本.?分析|ransomware|勒索|webshell|后门|backdoor"
         }
       ]
     },
@@ -400,16 +394,6 @@
         }
       ]
     },
-    "R41": {
-      "label": "CTF sandbox orchestrator",
-      "skill": "reverse-skill/SKILL.md",
-      "keywords": [
-        {
-          "must": "\\bctf\\b|awd|靶场|比赛.?题",
-          "exclude": "pwn|rop|栈溢出|堆溢出|ret2"
-        }
-      ]
-    },
     "R44": {
       "label": "Threat intelligence / OSINT",
       "skill": "reverse-skill/SKILL.md",
@@ -535,21 +519,12 @@
         }
       ]
     },
-    "H11": {
-      "label": "CTF tool index",
-      "skill": "ctf-toolindex/SKILL.md",
-      "keywords": [
-        {
-          "must": "ctf.?tools.?list|ctf.?toolbox|what.?tool.?for.?ctf|pwntools|rop.?gadget|ctf.?crypto.?tool|ctf.?forensics.?tool|ctf.?bruteforce|ctf.?tool.?index|ctf.?lookup"
-        }
-      ]
-    },
     "H12": {
       "label": "Malware tool index",
       "skill": "malware-toolindex/SKILL.md",
       "keywords": [
         {
-          "must": "malware.?analysis.?tool|yara.?cuckoo|\\bvolatility\\b|sandbox.?analysis|threat.?intel.?tool|ioc.?extract|malware.?collection|virustotal|hybrid.?analysis|malware.?tool.?index|malware.?lookup"
+          "must": "malware.?analysis.?tool|yara.?cuckoo|\\bvolatility\\b|threat.?intel.?tool|ioc.?extract|malware.?collection|virustotal|hybrid.?analysis|malware.?tool.?index|malware.?lookup"
         }
       ]
     },
@@ -583,7 +558,7 @@
       "priority": 90,
       "keywords": [
         {
-          "must": "hykingcr|hykingcr router|offensive router|pentest router|kill.?chain|api.?recon|llm.?redteam|geo.?osint|binary.?recon|ctf.?toolindex|malware.?toolindex|pentest.?agents|jshook|ghidra.?mcp|ida.?mcp"
+          "must": "hykingcr|hykingcr router|offensive router|pentest router|kill.?chain|api.?recon|llm.?redteam|geo.?osint|binary.?recon|malware.?toolindex|pentest.?agents|jshook|ghidra.?mcp|ida.?mcp"
         }
       ]
     },
@@ -729,6 +704,150 @@
           "must": "\\bchisel\\b|socks.?pivot|http.?tunnel|reverse.?socks|port.?forward.?pivot"
         }
       ]
+    },
+    "W01": {
+      "label": "020 Recon",
+      "skill": "../020-web-hacking-extreme/01-recon/httpx-smart-recon/scripts/agent.py",
+      "keywords": [
+        {
+          "must": "web.?recon|httpx|katana.?crawler|param.?miner|automated.?web.?fuzzing|smart.?recon|recon.?web"
+        }
+      ]
+    },
+    "W02": {
+      "label": "020 WAF Bypass",
+      "skill": "../020-web-hacking-extreme/02-waf-bypass/cloudflare-waf-bypass/scripts/agent.py",
+      "keywords": [
+        {
+          "must": "waf.?bypass|bypass.?waf|cloudflare.?bypass|akamai.?bypass|aws.?waf|waf.?evasion|bypass.?cloudflare"
+        }
+      ]
+    },
+    "W03": {
+      "label": "020 Exploit",
+      "skill": "../020-web-hacking-extreme/03-exploit/http-request-smuggling/scripts/agent.py",
+      "keywords": [
+        {
+          "must": "http.?request.?smuggling|graphql.?attack|graphql.?introspection|graphql.?batching|race.?condition|ssrf.?tunnel|web.?cache.?poisoning|web.?cache.?deception|websocket.?hijacking|toctou"
+        }
+      ]
+    },
+    "W04": {
+      "label": "020 Client-Side",
+      "skill": "../020-web-hacking-extreme/04-client-side/prototype-pollution-web/scripts/agent.py",
+      "keywords": [
+        {
+          "must": "prototype.?pollution|dom.?clobbering|postmessage.?abuse|browser.?extension.?hack|wasm.?reverse|webrtc.?hijack|client.?side"
+        }
+      ]
+    },
+    "W05": {
+      "label": "020 Auth OAuth",
+      "skill": "../020-web-hacking-extreme/05-auth-oauth/oauth-token-replay/scripts/agent.py",
+      "keywords": [
+        {
+          "must": "oauth.?token.?replay|oauth.?pkce|oauth.?consent|pkce.?downgrade|consent.?phishing"
+        }
+      ]
+    },
+    "W06": {
+      "label": "020 Automation",
+      "skill": "../020-web-hacking-extreme/06-automation/nuclei-custom-templates/scripts/agent.py",
+      "keywords": [
+        {
+          "must": "nuclei.?custom|ffuf.?advanced|dalfox|turbo.?intruder|mitmproxy.?advanced|burp.?bambda|caido.?scripting|xsstrike|exploit.?chain.?automation"
+        }
+      ]
+    },
+    "W07": {
+      "label": "020 Web Security",
+      "skill": "../020-web-hacking-extreme/07-web-security/performing-web-application-penetration-test/SKILL.md",
+      "keywords": [
+        {
+          "must": "sql.?injection|sqlmap|sqli|idor|ssrf|insecure.?deserialization|template.?injection|ssti|oauth.?misconfig|jwt.?token|websocket.?vulnerab|web.?application.?penetration|api.?security|waf.?logs|mass.?assignment|broken.?access|graphql.?security"
+        }
+      ]
+    },
+    "W08": {
+      "label": "020 Cloud Web",
+      "skill": "../020-web-hacking-extreme/08-cloud-web/conducting-cloud-penetration-testing/SKILL.md",
+      "keywords": [
+        {
+          "must": "cloud.?pentest|cloud.?penetration|aws.?pentest|pacu|cloudfox|kubernetes.?pentest|container.?escape|gcp.?pentest|s3.?bucket|entra.?id|aadinternals|serverless.?injection"
+        }
+      ]
+    },
+    "W09": {
+      "label": "020 AI LLM Web",
+      "skill": "../020-web-hacking-extreme/09-ai-llm-web/red-teaming-llms-with-garak/SKILL.md",
+      "keywords": [
+        {
+          "must": "\\bllm\\b|llm.?red.?team|garak|prompt.?injection|promptfoo|pyrit|mcp.?poison|system.?prompt.?leak|model.?extraction|rag.?pipeline"
+        }
+      ]
+    },
+    "W10": {
+      "label": "020 Adv Recon",
+      "skill": "../020-web-hacking-extreme/10-adv-recon/collecting-open-source-intelligence/SKILL.md",
+      "keywords": [
+        {
+          "must": "osint|open.?source.?intelligence|shodan|subfinder|spiderfoot|dnstwist|dark.?web.?monitor|certificate.?transparency|typosquat|threat.?actor.?profil"
+        }
+      ]
+    },
+    "W11": {
+      "label": "020 Network Web",
+      "skill": "../020-web-hacking-extreme/11-network-web/analyzing-network-traffic-with-wireshark/SKILL.md",
+      "keywords": [
+        {
+          "must": "wireshark|network.?traffic.?analysis|tshark|zeek|scapy|netflow|dns.?tunnel|beaconing|snort|suricata|arp.?poisoning"
+        }
+      ]
+    },
+    "W12": {
+      "label": "020 Red Team Web",
+      "skill": "../020-web-hacking-extreme/12-red-team-web/executing-red-team-exercise/SKILL.md",
+      "keywords": [
+        {
+          "must": "red.?team|\\bhavoc\\b|red.?team.?exercise|red.?team.?engagement|c2.?redirector|havoc.?c2|sliver.?c2|evilginx|gophish|spear.?phish|device.?code.?phish|adversary.?emulation|mitre.?engage"
+        }
+      ]
+    },
+    "W13": {
+      "label": "020 Log SIEM Web",
+      "skill": "../020-web-hacking-extreme/13-log-siem-web/performing-threat-hunting-with-elastic-siem/SKILL.md",
+      "keywords": [
+        {
+          "must": "siem|elastic.?siem|splunk|sigma.?rule|threat.?hunt|windows.?event.?log|sysmon|audit.?log|qradar|sentinel"
+        }
+      ]
+    },
+    "W14": {
+      "label": "020 Exploit Arsenal",
+      "skill": "../020-web-hacking-extreme/14-exploit-arsenal/performing-binary-exploitation-analysis/SKILL.md",
+      "keywords": [
+        {
+          "must": "binary.?exploit|buffer.?overflow|rop.?chain|ret2|format.?string|xxe.?injection|csrf|clickjack|cors.?misconfig|xss.?vulnerab|second.?order.?sqli|blind.?ssrf|ssl.?stripping|vlan.?hopping"
+        }
+      ]
+    },
+    "W15": {
+      "label": "020 Threat Intel",
+      "skill": "../020-web-hacking-extreme/15-threat-intel/performing-threat-hunting-with-yara-rules/SKILL.md",
+      "keywords": [
+        {
+          "must": "threat.?hunt|yara.?rule|threat.?intel|ioc.?enrich|opencti|c2.?beacon|ransomware.?indicator|webshell.?hunt|domain.?fronting"
+        }
+      ]
+    },
+    "W16": {
+      "label": "HackinMode",
+      "skill": "../HackinMode/skill.md",
+      "keywords": [
+        {
+          "must": "hackinmode|hackin.?mode|web.?pwn.?mode|hackin"
+        }
+      ]
     }
   },
   "priority": [
@@ -738,6 +857,22 @@
     "H09",
     "H13",
     "H14",
+    "W01",
+    "W02",
+    "W03",
+    "W04",
+    "W05",
+    "W06",
+    "W07",
+    "W08",
+    "W09",
+    "W10",
+    "W11",
+    "W12",
+    "W13",
+    "W14",
+    "W15",
+    "W16",
     "H04",
     "R4",
     "R1",
@@ -775,7 +910,6 @@
     "H03",
     "H08",
     "H10",
-    "H11",
     "H12",
     "R10",
     "R11",
@@ -787,7 +921,6 @@
     "R40",
     "R20",
     "R39",
-    "R41",
     "H01",
     "R0"
   ]

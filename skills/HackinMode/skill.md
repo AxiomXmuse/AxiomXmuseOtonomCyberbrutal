@@ -88,7 +88,6 @@ Activate: python <category>/<skill>/scripts/agent.py [args]
 │   webrtc-hijack               — STUN/TURN, media stream hijack
 │   browser-extension-hack      — Manifest v2/v3, message passing
 │   wasm-reverse-engineering    — WASM decompile + tamper
-│   nodejs-sandbox-escape       — eval(), vm escape, child_process
 │
 ├─ 05-AUTH-OAUTH (3)
 │   oauth-pkce-downgrade        — PKCE downgrade to auth code
