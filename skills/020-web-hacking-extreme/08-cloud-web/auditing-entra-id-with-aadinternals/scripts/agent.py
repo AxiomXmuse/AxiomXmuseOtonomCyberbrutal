@@ -9,8 +9,6 @@ Two capabilities:
   2. run    : Convenience launcher that invokes an AADInternals cmdlet through
               PowerShell (pwsh/powershell) for the authenticated/backdoor cmdlets.
 
-AUTHORIZED USE ONLY. AADInternals can forge SAML tokens and backdoor federation.
-Use only against tenants you own or are explicitly authorized to assess.
 
 References:
   - AADInternals  https://aadinternals.com/aadinternals/
@@ -112,7 +110,6 @@ def main() -> int:
     c.set_defaults(func=run_cmdlet)
 
     args = p.parse_args()
-    print("[i] AUTHORIZED TESTING ONLY -- confirm tenant is in scope.")
     return args.func(args)
 
 

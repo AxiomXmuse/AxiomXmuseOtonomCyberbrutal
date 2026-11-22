@@ -68,7 +68,6 @@ mitre_f3:
 # Conducting Spearphishing Simulation Campaign
 
 
-> **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 

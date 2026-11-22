@@ -41,7 +41,6 @@ mitre_attack:
 - When compliance frameworks (SOC 2, PCI DSS, HIPAA) require periodic review of data access controls
 - When a breach or credential compromise necessitates immediate review of all accessible S3 resources
 
-**Do not use** for auditing non-AWS object storage (use provider-specific tools), for real-time monitoring (use S3 Event Notifications with Lambda), or for auditing S3 access patterns (use S3 Access Analyzer or CloudTrail S3 data events).
 
 ## Prerequisites
 

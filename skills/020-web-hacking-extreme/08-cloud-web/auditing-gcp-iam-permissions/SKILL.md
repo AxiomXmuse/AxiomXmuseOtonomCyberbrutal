@@ -40,7 +40,6 @@ mitre_attack:
 - When investigating potential lateral movement through IAM misconfigurations
 - When reducing the blast radius of compromised credentials by scoping down permissions
 
-**Do not use** for VPC firewall rule auditing (use network security tools), for GKE RBAC auditing (use Kubernetes-specific RBAC tools), or for real-time threat detection on IAM actions (use SCC Event Threat Detection).
 
 ## Prerequisites
 

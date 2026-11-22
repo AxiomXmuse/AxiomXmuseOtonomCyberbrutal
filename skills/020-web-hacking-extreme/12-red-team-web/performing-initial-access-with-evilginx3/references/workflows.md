@@ -19,7 +19,7 @@
 3. Phishing Delivery
    ├── Craft pretext email with social engineering
    ├── Configure GoPhish or SMTP relay for delivery
-   ├── Send phishing emails to authorized targets
+   ├── Send phishing emails to targets
    └── Monitor delivery and open rates
 
 4. Credential and Session Capture

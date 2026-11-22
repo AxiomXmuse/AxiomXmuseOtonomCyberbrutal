@@ -58,7 +58,6 @@ nist_csf:
 - Reconstructing an incident timeline from disparate log sources
 - Analyzing authentication anomalies, lateral movement, or data exfiltration patterns
 
-**Do not use** for real-time packet-level analysis; use Wireshark or Zeek for full packet capture analysis.
 
 ## Prerequisites
 

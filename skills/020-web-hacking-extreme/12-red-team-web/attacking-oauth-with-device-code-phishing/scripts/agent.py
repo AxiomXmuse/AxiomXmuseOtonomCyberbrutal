@@ -8,9 +8,6 @@ Implements the real Microsoft Entra ID device authorization grant (RFC 8628):
   3. Poll /token with grant_type=urn:ietf:params:oauth:grant-type:device_code
   4. Optionally redeem the captured refresh_token against another first-party resource
 
-AUTHORIZED USE ONLY. Run exclusively against tenants you own or have explicit
-written authorization (rules of engagement) to test. Device-code phishing
-manipulates real identities; unauthorized use violates the CFAA and equivalent law.
 
 References:
   - RFC 8628                https://datatracker.ietf.org/doc/html/rfc8628

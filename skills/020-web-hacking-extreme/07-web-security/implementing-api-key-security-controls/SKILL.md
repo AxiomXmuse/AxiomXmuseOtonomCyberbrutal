@@ -50,7 +50,6 @@ mitre_attack:
 - Configuring per-key scoping to limit each API key to specific endpoints, IP ranges, and rate limits
 - Setting up automated monitoring for API key leakage in GitHub repos, logs, and client-side code
 
-**Do not use** API keys as the sole authentication mechanism for user-facing applications. API keys are best suited for server-to-server communication and developer access.
 
 ## Prerequisites
 

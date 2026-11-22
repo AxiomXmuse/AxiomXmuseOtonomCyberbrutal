@@ -57,7 +57,6 @@ Use this skill when:
 - Red team exercises reveal detection gaps that need hunting query development
 - Periodic hunting cadence requires structured hypothesis-driven investigations
 
-**Do not use** for real-time alert triage — that belongs in the Elastic Security Alerts queue with automated detection rules.
 
 ## Prerequisites
 

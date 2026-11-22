@@ -35,7 +35,7 @@ pkt[ICMP].type          # ICMP type (8=echo request, 0=echo reply)
 ```python
 from scapy.all import IP, TCP, sr1, send
 
-# SYN probe (authorized testing only)
+# SYN probe
 syn = IP(dst="192.168.1.1") / TCP(dport=80, flags="S")
 response = sr1(syn, timeout=2, verbose=0)
 

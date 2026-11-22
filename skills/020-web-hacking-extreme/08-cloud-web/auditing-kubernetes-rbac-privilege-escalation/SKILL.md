@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Auditing Kubernetes RBAC Privilege Escalation
 
-> **Legal Notice:** This skill is for authorized security testing and educational purposes only. Enumerating and exercising RBAC permissions affects a live cluster's access posture. Only test clusters you own or are explicitly authorized in writing to assess.
 
 ## Overview
 

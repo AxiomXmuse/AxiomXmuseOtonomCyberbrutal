@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized testing only
 """RESTler API fuzzing orchestration and result analysis agent."""
 
 import json

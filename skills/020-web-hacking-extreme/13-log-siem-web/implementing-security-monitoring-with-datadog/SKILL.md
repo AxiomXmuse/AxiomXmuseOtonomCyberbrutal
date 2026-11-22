@@ -57,7 +57,6 @@ mitre_attack:
 - Meeting compliance requirements (PCI-DSS, SOC 2, HIPAA) that mandate centralized log monitoring and alerting
 - Building security dashboards to provide SOC visibility into threat signals, investigation context, and response metrics
 
-**Do not use** for endpoint-only monitoring without cloud infrastructure; use a dedicated EDR solution for purely on-premises endpoint detection.
 
 ## Prerequisites
 

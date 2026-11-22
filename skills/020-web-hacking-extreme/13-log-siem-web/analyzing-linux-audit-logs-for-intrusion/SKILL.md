@@ -43,7 +43,6 @@ mitre_attack:
 - Reconstructing a timeline of attacker actions during incident response
 - Detecting file tampering on critical system files such as `/etc/passwd`, `/etc/shadow`, or SSH keys
 
-**Do not use** for network-level intrusion detection; use Suricata or Zeek for network traffic analysis. Auditd operates at the kernel level on individual hosts.
 
 ## Prerequisites
 

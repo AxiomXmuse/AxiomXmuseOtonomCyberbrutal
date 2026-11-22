@@ -41,7 +41,6 @@ mitre_attack:
 - When implementing defense-in-depth for containerized workloads
 - When migrating from fat base images to distroless or minimal images
 
-**Do not use** for runtime container security monitoring (use Falco), for host-level Docker daemon hardening (use CIS Docker Benchmark host checks), or for container orchestration security (use Kubernetes security scanning).
 
 ## Prerequisites
 

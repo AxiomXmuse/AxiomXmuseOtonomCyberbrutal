@@ -44,7 +44,6 @@ Use this skill when:
 - Preparing an executive briefing on APT groups that align with geopolitical events affecting your business
 - Enabling SOC analysts to understand attacker objectives and TTPs to improve detection tuning
 
-**Do not use** this skill for real-time incident attribution — attribution during active incidents should be deprioritized in favor of containment. Profile refinement occurs post-incident.
 
 ## Prerequisites
 

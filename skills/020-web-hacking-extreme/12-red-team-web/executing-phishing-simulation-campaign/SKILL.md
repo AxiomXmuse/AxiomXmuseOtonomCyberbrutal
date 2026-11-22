@@ -74,7 +74,6 @@ mitre_f3:
 - Establishing a baseline for phishing susceptibility before deploying security awareness training
 - Validating that incident response procedures work when employees report suspicious emails
 
-**Do not use** without explicit written authorization from the organization's leadership, for actual credential theft beyond the authorized scope, for targeting individuals personally rather than professionally, or for sending phishing emails that could cause psychological harm or legal liability.
 
 ## Prerequisites
 

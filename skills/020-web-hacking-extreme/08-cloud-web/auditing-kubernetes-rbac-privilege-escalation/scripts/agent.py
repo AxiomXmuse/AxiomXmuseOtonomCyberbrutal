@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # For authorized Kubernetes security assessments only. Run against clusters you
-# own or are explicitly authorized in writing to test.
 """Kubernetes RBAC privilege-escalation auditor.
 
 Wraps `kubectl auth can-i` to enumerate effective permissions for service

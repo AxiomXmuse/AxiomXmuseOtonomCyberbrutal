@@ -38,7 +38,6 @@ mitre_attack:
 - Isolating high-risk devices (IoT, BYOD, legacy systems) from critical infrastructure
 - Implementing defense-in-depth by combining VLANs with firewall rules and access control lists
 
-**Do not use** VLANs as the sole security control without Layer 3 filtering, for isolating networks that require air-gapping, or without proper switch hardening against VLAN hopping attacks.
 
 ## Prerequisites
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized penetration testing and lab environments only
 """OSINT Collection Agent - Gathers open-source intelligence on targets using Shodan and crt.sh."""
 
 import json

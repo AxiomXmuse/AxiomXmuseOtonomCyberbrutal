@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized testing in lab/CTF environments only
 """Red team exercise planning and ATT&CK technique tracking agent."""
 
 import argparse

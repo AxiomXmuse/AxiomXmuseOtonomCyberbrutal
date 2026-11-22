@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Continuous LLM Red Teaming with Promptfoo
 
-> **Authorized Use Only:** Run these adversarial probes only against LLM applications and endpoints you own or are explicitly authorized to test. Generated attack payloads (jailbreaks, prompt injections, harmful-content elicitation) are adversarial inputs; sending them to third-party services without permission may violate terms of service.
 
 ## Overview
 

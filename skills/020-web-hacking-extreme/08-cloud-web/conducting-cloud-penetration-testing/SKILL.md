@@ -55,7 +55,6 @@ mitre_attack:
 - When testing incident response readiness by simulating realistic cloud-based attack scenarios
 - When assessing lateral movement risk across multi-account or multi-cloud environments
 
-**Do not use** for unauthorized testing against cloud accounts, for testing cloud provider infrastructure itself (covered by the shared responsibility model), or for DDoS simulation without explicit cloud provider approval.
 
 ## Prerequisites
 

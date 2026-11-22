@@ -38,7 +38,6 @@ mitre_attack:
 - Setting up site-to-site or remote access VPN tunnels using IPsec or OpenVPN
 - Implementing traffic shaping and bandwidth management for quality-of-service requirements
 
-**Do not use** as a substitute for host-based firewalls on individual systems, for SSL/TLS deep packet inspection without dedicated hardware acceleration, or as the sole security control without complementary IDS/IPS.
 
 ## Prerequisites
 

@@ -65,7 +65,6 @@ mitre_f3:
 - When onboarding repositories from acquired companies or third-party vendors
 - When validating that credential rotation processes have removed all references to old access keys
 
-**Do not use** for real-time credential monitoring (use AWS GuardDuty or Amazon Macie), for managing secrets (use AWS Secrets Manager or HashiCorp Vault), or for detecting non-credential sensitive data like PII (use Amazon Macie or DLP tools).
 
 ## Prerequisites
 

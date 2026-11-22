@@ -44,7 +44,6 @@ mitre_attack:
 - Testing input validation on WebSocket message payloads for injection vulnerabilities
 - Assessing WebSocket implementations for denial-of-service through message flooding or oversized frames
 
-**Do not use** without written authorization. WebSocket testing may disrupt real-time services and affect other connected users.
 
 ## Prerequisites
 
@@ -181,7 +180,7 @@ async def test_cswsh():
         None,                                    # No Origin header
         "https://evil.com",                      # Attacker domain
         "https://target-api.example.com.evil.com",  # Subdomain confusion
-        "null",                                  # Null origin (sandboxed iframe)
+        "null", # Null origin (data-URI iframe)
         "https://target-api.example.com",        # Legitimate origin
         "http://target-api.example.com",         # HTTP downgrade
     ]

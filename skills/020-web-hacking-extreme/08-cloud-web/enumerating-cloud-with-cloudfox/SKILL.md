@@ -23,7 +23,6 @@ mitre_attack:
 ---
 # Enumerating Cloud with CloudFox
 
-> **Legal Notice:** This skill is for authorized cloud penetration testing and assessment only. CloudFox makes read/describe API calls against the cloud account whose credentials you supply. Run it ONLY against accounts you own or are authorized to test under a signed scope. Although CloudFox is read-only by design, the enumeration it performs is reconnaissance against a live environment and must be in scope.
 
 ## Overview
 

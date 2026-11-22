@@ -66,7 +66,6 @@ mitre_f3:
 - When migrating from long-lived access keys to short-lived role-based credentials
 - When remediating findings from AWS Security Hub related to IAM misconfigurations
 
-**Do not use** for Azure AD or Google Cloud IAM configurations, application-level authorization logic, or federated identity provider setup (see managing-cloud-identity-with-okta).
 
 ## Prerequisites
 

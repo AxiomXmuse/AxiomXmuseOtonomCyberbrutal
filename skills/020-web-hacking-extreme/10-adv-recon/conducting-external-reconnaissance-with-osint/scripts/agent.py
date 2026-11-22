@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized penetration testing and lab environments only
 """External Reconnaissance Agent - Maps organization attack surface using passive OSINT."""
 
 import json

@@ -33,7 +33,7 @@ mitre_attack:
 
 ## Overview
 
-Cartography is a CNCF sandbox project (originally created at Lyft) that consolidates infrastructure assets and their relationships into a Neo4j graph database. It queries cloud APIs to discover resources, maps relationships between them, and enables security teams to identify attack paths, generate asset reports, and find areas for security improvement. The graph model reveals hidden connections such as IAM permission chains, network paths, and cross-account trust relationships.
+Cartography is a CNCF project (originally created at Lyft) that consolidates infrastructure assets and their relationships into a Neo4j graph database. It queries cloud APIs to discover resources, maps relationships between them, and enables security teams to identify attack paths, generate asset reports, and find areas for security improvement. The graph model reveals hidden connections such as IAM permission chains, network paths, and cross-account trust relationships.
 
 
 ## When to Use
@@ -251,5 +251,5 @@ volumes:
 
 - Cartography GitHub: https://github.com/cartography-cncf/cartography
 - Cartography Documentation: https://cartography.dev
-- CNCF Sandbox Project
+- CNCF Project
 - Neo4j Cypher Query Language Reference

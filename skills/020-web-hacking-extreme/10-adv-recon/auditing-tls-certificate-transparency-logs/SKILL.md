@@ -43,7 +43,6 @@ mitre_attack:
 - Auditing Certificate Authority compliance by verifying all issued certificates appear in CT logs as required by browser policies
 - Building continuous certificate monitoring into a security operations pipeline with alerting for new issuances
 
-**Do not use** for attacking or disrupting Certificate Authorities, for scraping CT logs in violation of rate limits or terms of service, or as the sole method of subdomain enumeration without corroborating results through DNS verification.
 
 ## Prerequisites
 

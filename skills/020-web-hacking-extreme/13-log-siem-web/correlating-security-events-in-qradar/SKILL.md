@@ -42,7 +42,6 @@ Use this skill when:
 - Alert tuning is required to reduce false positive offenses and improve signal quality
 - The team migrates from basic event monitoring to behavior-based correlation
 
-**Do not use** for log source onboarding or parsing — that requires QRadar administrator access and DSM editor knowledge.
 
 ## Prerequisites
 

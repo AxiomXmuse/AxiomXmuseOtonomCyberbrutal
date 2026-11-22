@@ -41,7 +41,6 @@ mitre_attack:
 - Identifying exposed credentials, leaked data, or sensitive documents published on the internet
 - Scoping the breadth of an organization's digital footprint prior to a red team engagement
 
-**Do not use** for stalking, harassment, or unauthorized surveillance of individuals. OSINT gathering must be conducted within the scope of an authorized engagement and comply with applicable privacy laws (GDPR, CCPA).
 
 ## Prerequisites
 

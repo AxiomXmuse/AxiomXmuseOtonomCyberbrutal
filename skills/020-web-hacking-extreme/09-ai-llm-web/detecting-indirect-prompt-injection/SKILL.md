@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Detecting Indirect Prompt Injection
 
-> **Authorized-use-only notice:** Scripts in this skill scan untrusted content for injection payloads and run detector models. Run scanning only on data you are authorized to process, and treat any extracted payloads as live untrusted input — never paste them back into a privileged LLM context.
 
 ## Overview
 

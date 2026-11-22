@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized penetration testing and lab environments only
 """Sliver C2 Framework Deployment Agent - Automates Sliver C2 setup for authorized red team engagements."""
 
 import json
@@ -78,7 +77,7 @@ def generate_report(listeners, implants, sessions_output, beacons_output):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Sliver C2 Framework Deployment Agent (Authorized Testing Only)")
+    parser = argparse.ArgumentParser(description="Sliver C2 Framework Deployment Agent")
     parser.add_argument("--c2-host", required=True, help="C2 server IP/hostname")
     parser.add_argument("--implant-name", default="test_implant")
     parser.add_argument("--os", default="windows", choices=["windows", "linux", "darwin"])

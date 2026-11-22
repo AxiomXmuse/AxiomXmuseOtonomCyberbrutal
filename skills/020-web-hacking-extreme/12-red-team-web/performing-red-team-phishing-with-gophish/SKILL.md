@@ -85,7 +85,6 @@ mitre_f3:
 4. Analyze campaign results: opens, clicks, submitted data, reported.
 
 ```bash
-# For authorized penetration testing and lab environments only
 python scripts/agent.py --gophish-url https://localhost:3333 --api-key <key> --campaign-name "Q1 Awareness" --output phishing_report.json
 ```
 

@@ -40,7 +40,6 @@ mitre_attack:
 - When building reusable IAM templates for Lambda functions across teams
 - When Security Hub or Prowler reports Lambda functions with excessive permissions
 
-**Do not use** for securing Lambda function invocation (use resource-based policies and API Gateway authorizers), for Lambda code security (use SAST tools), or for Lambda network security (use VPC configuration and security groups).
 
 ## Prerequisites
 

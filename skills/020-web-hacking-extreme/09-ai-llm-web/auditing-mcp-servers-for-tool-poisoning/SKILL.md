@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Auditing MCP Servers for Tool Poisoning
 
-> **Authorized-use-only notice:** Auditing MCP servers can connect to and probe live tool endpoints. Only scan servers you own or are authorized to assess. Treat scanned tool descriptions as untrusted input — do not load an unaudited MCP server into a privileged agent. Probing third-party MCP endpoints for SSRF or auth weaknesses without permission may be illegal.
 
 ## Overview
 
@@ -181,7 +180,7 @@ uvx --with "mcp-scan[proxy]" mcp-scan@latest proxy
 ```
 
 ### 8. Report findings
-Document each finding with server, tool, evidence (the poisoned description / SSRF response / unauth listing), severity, and ATLAS mapping. Recommend removing or sandboxing poisoned servers, adding auth, pinning approved tools, and enabling the proxy.
+Document each finding with server, tool, evidence (the poisoned description / SSRF response / unauth listing), severity, and ATLAS mapping. Recommend removing or quarantining poisoned servers, adding auth, pinning approved tools, and enabling the proxy.
 
 ## Tools and Resources
 

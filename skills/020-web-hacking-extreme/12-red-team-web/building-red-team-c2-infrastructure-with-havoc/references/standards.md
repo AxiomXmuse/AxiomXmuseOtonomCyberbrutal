@@ -30,7 +30,7 @@
 - **T1055.012** - Process Hollowing
 - **T1620** - Reflective Code Loading
 - **T1027** - Obfuscated Files or Information
-- **T1497** - Virtualization/Sandbox Evasion
+- **T1497** - Virtualization/Evasion
 - **T1140** - Deobfuscate/Decode Files or Information
 
 ### Execution (TA0002)

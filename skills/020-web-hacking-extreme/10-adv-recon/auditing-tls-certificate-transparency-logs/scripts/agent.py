@@ -2,7 +2,6 @@
 """CT Log Monitoring Agent - Monitors Certificate Transparency logs for unauthorized
 certificate issuance, subdomain discovery, and certificate alerting.
 
-For authorized security monitoring and defensive operations only.
 """
 
 import argparse

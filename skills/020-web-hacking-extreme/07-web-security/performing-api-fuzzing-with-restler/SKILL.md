@@ -44,7 +44,6 @@ mitre_attack:
 - Testing API input validation by fuzzing parameters with malformed, boundary, and injection payloads
 - Running continuous security regression testing in CI/CD pipelines for API changes
 
-**Do not use** against production environments without explicit authorization and monitoring. RESTler creates and deletes resources aggressively during fuzzing.
 
 ## Prerequisites
 

@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Operating Havoc C2
 
-> **Legal Notice:** This skill is for authorized security testing, sanctioned red-team engagements, and education only. Deploying a C2 framework or its agents against systems you do not own or lack explicit written authorization to test is illegal. Operate strictly within a signed rules-of-engagement document.
 
 ## Overview
 

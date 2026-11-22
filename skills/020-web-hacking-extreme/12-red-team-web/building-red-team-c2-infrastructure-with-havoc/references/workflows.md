@@ -39,7 +39,7 @@
 │     ├── Develop custom loader (C/Rust/Nim)                       │
 │     │   ├── AES-encrypt shellcode                                │
 │     │   ├── Implement sleep obfuscation                          │
-│     │   ├── Add sandbox checks                                   │
+│ │ ├── Add evasion checks │
 │     │   └── Use indirect syscalls                                │
 │     ├── Test against AV/EDR in lab                               │
 │     └── Package for delivery vector                              │

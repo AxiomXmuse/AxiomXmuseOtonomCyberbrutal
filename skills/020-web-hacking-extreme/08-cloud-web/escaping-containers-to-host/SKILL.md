@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Escaping Containers to Host
 
-> **Legal Notice:** This skill is for authorized security testing and educational purposes only. Container breakout grants full host compromise. Only run these techniques against systems you own or have explicit written authorization to test. Unauthorized use is illegal and may violate computer fraud laws.
 
 ## Overview
 

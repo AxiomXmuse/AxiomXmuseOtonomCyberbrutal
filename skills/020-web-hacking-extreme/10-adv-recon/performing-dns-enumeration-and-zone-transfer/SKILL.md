@@ -38,7 +38,6 @@ mitre_attack:
 - Identifying mail servers, name servers, and service records for further targeted testing
 - Validating DNS security configurations including DNSSEC, SPF, DKIM, and DMARC
 
-**Do not use** against domains you do not have authorization to test, for DNS amplification or reflection attacks, or to overwhelm DNS servers with excessive query volumes.
 
 ## Prerequisites
 

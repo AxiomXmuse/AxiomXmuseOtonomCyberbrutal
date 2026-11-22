@@ -40,7 +40,6 @@ mitre_attack:
 - When responding to Security Command Center findings about open firewall rules
 - When building hierarchical firewall policies across a GCP organization
 
-**Do not use** for application-layer filtering (use Cloud Armor WAF), for DNS-based filtering (use Cloud DNS response policies), or for VPN/interconnect traffic filtering without understanding that VPC firewall rules apply to traffic within the VPC.
 
 ## Prerequisites
 

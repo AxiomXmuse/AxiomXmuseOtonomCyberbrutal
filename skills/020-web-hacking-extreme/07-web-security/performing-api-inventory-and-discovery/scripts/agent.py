@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized testing only
 """API inventory and discovery agent for attack surface mapping."""
 
 import json
@@ -126,7 +125,7 @@ def enumerate_subdomains_for_apis(domain):
     api_prefixes = [
         "api", "api-v1", "api-v2", "api-gateway", "api-internal",
         "gateway", "graphql", "rest", "ws", "webhook",
-        "staging-api", "dev-api", "sandbox-api", "beta-api",
+        "staging-api", "dev-api", "beta-api",
         "admin-api", "partner-api", "public-api", "mobile-api",
     ]
     found = []

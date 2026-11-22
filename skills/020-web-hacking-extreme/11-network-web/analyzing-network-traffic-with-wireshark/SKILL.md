@@ -33,11 +33,10 @@ mitre_attack:
 
 - Investigating suspected network intrusions by examining packet-level evidence of command-and-control traffic, data exfiltration, or lateral movement
 - Diagnosing network performance issues such as retransmissions, fragmentation, or DNS resolution failures
-- Analyzing malware communication patterns by capturing traffic from sandboxed or isolated hosts
+- Analyzing malware communication patterns by capturing traffic from isolated hosts
 - Validating firewall and IDS rules by confirming what traffic is actually traversing network segments
 - Extracting files, credentials, or indicators of compromise from captured network sessions
 
-**Do not use** to capture traffic on networks without authorization, to intercept private communications without legal authority, or as a substitute for full-featured SIEM platforms in production monitoring.
 
 ## Prerequisites
 

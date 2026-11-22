@@ -64,7 +64,6 @@ mitre_f3:
 - When compliance audits require documentation of access controls and permissions
 - When onboarding new teams to a shared cluster and defining appropriate RBAC policies
 
-**Do not use** for network policy auditing (use Cilium or Calico network policy tools), for container image scanning (use Trivy or Grype), or for runtime security monitoring (use Falco or Sysdig Secure).
 
 ## Prerequisites
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized testing in lab/CTF environments only
 """Active Directory attack simulation agent using Impacket and ldap3."""
 
 import argparse

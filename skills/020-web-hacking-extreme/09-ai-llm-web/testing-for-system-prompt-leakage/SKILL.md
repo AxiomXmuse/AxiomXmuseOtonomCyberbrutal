@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Testing for System Prompt Leakage
 
-> **Authorized use only:** The extraction payloads below are for assessing LLM applications you own or have written authorization to test. Extracting prompts, secrets, or routing logic from systems you are not authorized to test may be unlawful.
 
 ## Overview
 

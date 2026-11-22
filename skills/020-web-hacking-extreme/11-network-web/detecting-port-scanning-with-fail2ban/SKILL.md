@@ -38,7 +38,6 @@ mitre_attack:
 - Reducing noise from automated scanning bots before traffic reaches IDS/IPS for deeper analysis
 - Implementing defense-in-depth by adding host-based automated response to network monitoring
 
-**Do not use** as the sole network security control, for protecting against distributed attacks from many source IPs, or as a replacement for proper firewall rules and network segmentation.
 
 ## Prerequisites
 

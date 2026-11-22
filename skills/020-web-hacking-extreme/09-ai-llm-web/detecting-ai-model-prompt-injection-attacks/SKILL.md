@@ -63,7 +63,6 @@ mitre_attack:
 - Evaluating the effectiveness of existing prompt injection defenses through red-team testing
 - Classifying prompt injection payloads during security incident investigations involving AI systems
 
-**Do not use** as the sole defense mechanism against prompt injection -- always combine with output validation, privilege separation, and least-privilege tool access. Not suitable for detecting jailbreaks that do not involve injection of adversarial instructions.
 
 ## Prerequisites
 
@@ -176,6 +175,6 @@ Review the JSON output for any prompts flagged with `injection_detected: true` a
 
 - **protectai/deberta-v3-base-prompt-injection-v2**: Hugging Face transformer model fine-tuned for binary prompt injection classification with 99%+ accuracy on standard benchmarks
 - **Rebuff**: Open-source multi-layered prompt injection detection framework by ProtectAI combining heuristics, LLM-based detection, vector similarity, and canary tokens
-- **Pytector**: Lightweight Python package for prompt injection detection supporting local DeBERTa/DistilBERT models and API-based safeguards
+- **Pytector**: Lightweight Python package for prompt injection detection supporting local DeBERTa/DistilBERT models and API-based controls
 - **OWASP LLM Top 10**: Industry-standard risk taxonomy for LLM application security, with LLM01 dedicated to prompt injection
 - **deepset/prompt-injections**: Hugging Face dataset containing labeled prompt injection examples used for training and evaluating detection models

@@ -50,7 +50,6 @@ mitre_attack:
 - When auditing IAM bindings, firewall rules, and storage ACLs across multiple GCP projects
 - When building continuous security monitoring for GCP infrastructure
 
-**Do not use** as a replacement for GCP Security Command Center Premium for real-time threat detection, for application-level vulnerability scanning (use Web Security Scanner), or for GKE-specific security (use GKE Security Posture).
 
 ## Prerequisites
 

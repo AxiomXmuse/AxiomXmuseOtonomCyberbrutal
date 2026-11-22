@@ -41,7 +41,6 @@ mitre_attack:
 - When extending threat coverage to container workloads running on EKS, ECS, or Fargate
 - When enabling malware scanning for EBS volumes attached to suspicious EC2 instances
 
-**Do not use** for Azure or GCP threat detection (see securing-azure-with-microsoft-defender or auditing-gcp-security-posture), for static code analysis, or for compliance posture monitoring (see implementing-aws-security-hub).
 
 ## Prerequisites
 

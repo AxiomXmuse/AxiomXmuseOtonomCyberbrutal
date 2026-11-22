@@ -49,7 +49,6 @@ mitre_attack:
 - When investigating potential data exposure through publicly accessible blob containers
 - When onboarding Azure subscriptions and establishing storage security baselines
 
-**Do not use** for Azure SQL or Cosmos DB security auditing (use dedicated database security tools), for real-time threat detection on storage operations (use Defender for Storage), or for Azure Files or Data Lake Gen2 specific auditing without adapting the checks.
 
 ## Prerequisites
 

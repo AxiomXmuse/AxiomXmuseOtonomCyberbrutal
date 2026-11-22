@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """GCP penetration testing agent: bucket enumeration, IAM audit, privilege escalation analysis.
-# For authorized testing only
 """
 
 import json

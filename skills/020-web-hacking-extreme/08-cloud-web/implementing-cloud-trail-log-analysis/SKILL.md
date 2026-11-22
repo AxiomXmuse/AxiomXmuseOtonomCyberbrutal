@@ -41,7 +41,6 @@ mitre_attack:
 - When creating detection rules for known attack patterns in AWS environments
 - When establishing baseline API behavior for anomaly detection
 
-**Do not use** for real-time threat detection (use GuardDuty which already analyzes CloudTrail), for application-level logging (use CloudWatch Application Logs), or for network traffic analysis (use VPC Flow Logs).
 
 ## Prerequisites
 

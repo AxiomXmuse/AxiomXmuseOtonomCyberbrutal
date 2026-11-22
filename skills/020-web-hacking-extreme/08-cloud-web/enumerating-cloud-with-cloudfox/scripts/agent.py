@@ -81,7 +81,6 @@ def main():
     args = p.parse_args()
 
     require_cloudfox()
-    print("[!] AUTHORIZED USE ONLY — confirm the target account is in scope.")
     os.makedirs(args.outdir, exist_ok=True)
 
     if args.all:

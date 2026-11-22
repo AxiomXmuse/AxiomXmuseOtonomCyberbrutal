@@ -37,7 +37,6 @@ mitre_attack:
 - Meeting compliance requirements (PCI-DSS, HIPAA, SOC 2) for network access controls
 - Onboarding BYOD devices with automated provisioning and limited network access
 
-**Do not use** as a standalone security solution without complementary controls, for networks with devices that do not support 802.1X supplicants, or without proper fallback mechanisms for critical infrastructure.
 
 ## Prerequisites
 

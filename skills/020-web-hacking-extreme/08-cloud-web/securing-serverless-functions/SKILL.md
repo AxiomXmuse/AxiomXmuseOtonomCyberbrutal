@@ -41,7 +41,6 @@ mitre_attack:
 - When hardcoded secrets or vulnerable dependencies are discovered in function code
 - When establishing runtime monitoring for serverless workloads to detect injection or credential theft
 
-**Do not use** for container-based compute security (see securing-kubernetes-on-cloud), for API Gateway configuration (see implementing-cloud-waf-rules), or for serverless architecture design decisions.
 
 ## Prerequisites
 

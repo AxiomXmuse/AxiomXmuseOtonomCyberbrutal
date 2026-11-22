@@ -45,7 +45,6 @@ mitre_attack:
 - Analyzing event source poisoning attacks where malicious payloads are injected through S3 object uploads, SQS messages, DynamoDB stream records, or API Gateway requests that trigger function execution
 - Building detection rules for SOC teams monitoring serverless workloads for unauthorized function modifications, layer additions, and suspicious invocation patterns
 
-**Do not use** for load testing or denial-of-service simulation against serverless functions, for testing against production functions processing live customer data without explicit authorization, or for modifying IAM policies in shared accounts without change management approval.
 
 ## Prerequisites
 
@@ -118,7 +117,7 @@ Scan function code for dangerous patterns that allow injected event data to exec
   new Function(event.code)();               // Dynamic function creation
   child_process.exec(event.command);         // OS command injection
   child_process.execSync(event.cmd);         // Synchronous command injection
-  vm.runInNewContext(event.script);          // Sandbox escape potential
+  vm.runInNewContext(event.script); // Escape potential
   require('child_process').exec(event.input); // Import-and-execute pattern
   ```
 - **Run Semgrep with serverless rules**: Use purpose-built rules that detect event data flowing into injection sinks:

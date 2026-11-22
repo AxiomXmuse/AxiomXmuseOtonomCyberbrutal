@@ -363,7 +363,6 @@ def print_report(report: PentestReport):
 
 def main():
     print("[*] Kubernetes Penetration Testing Tool")
-    print("[*] Authorized testing only\n")
 
     report = PentestReport()
 

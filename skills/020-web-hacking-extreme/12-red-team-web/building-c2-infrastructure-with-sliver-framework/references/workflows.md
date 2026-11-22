@@ -4,7 +4,7 @@
 
 ```
 1. Planning Phase
-   ├── Define engagement scope and authorized targets
+   ├── Define engagement scope and targets
    ├── Select cloud providers for team server and redirectors
    ├── Register domains for C2 channels (categorized domains preferred)
    └── Obtain SSL certificates (Let's Encrypt or purchased)

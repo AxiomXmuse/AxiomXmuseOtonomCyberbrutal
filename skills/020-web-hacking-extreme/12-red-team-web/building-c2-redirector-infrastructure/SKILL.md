@@ -23,11 +23,10 @@ mitre_attack:
 ---
 # Building C2 Redirector Infrastructure
 
-> **Authorized Use Only:** This skill is for authorized red-team engagements, adversary-emulation exercises, and defensive research only. Command-and-control infrastructure is dual-use; deploying redirectors to control malware on systems you are not explicitly authorized to test is illegal. Operate only inside an agreed scope with a signed rules-of-engagement document, and decommission infrastructure when the engagement ends.
 
 ## Overview
 
-A C2 redirector is an intermediary host that sits between victim implants and the real team server. Beacons connect to the redirector's public domain/IP; the redirector inspects each request and either proxies legitimate C2 traffic back to the hidden team server or diverts everything else (scanners, blue-team analysts, sandboxes) to a benign decoy site. This protects the team server from discovery, takedown, and attribution, and lets operators rotate the public edge without rebuilding the backend. The technique maps to MITRE ATT&CK **T1090.002 (Proxy: External Proxy)** — adversaries route C2 through an intermediary node to obscure the true origin.
+A C2 redirector is an intermediary host that sits between victim implants and the real team server. Beacons connect to the redirector's public domain/IP; the redirector inspects each request and either proxies legitimate C2 traffic back to the hidden team server or diverts everything else (scanners, blue-team analysts, analysis systems) to a benign decoy site. This protects the team server from discovery, takedown, and attribution, and lets operators rotate the public edge without rebuilding the backend. The technique maps to MITRE ATT&CK **T1090.002 (Proxy: External Proxy)** — adversaries route C2 through an intermediary node to obscure the true origin.
 
 Redirectors come in two flavors. **Dumb pipes** (socat, iptables NAT) blindly forward a port and provide separation but no filtering. **Smart/filtering redirectors** (nginx `proxy_pass`, Apache `mod_rewrite` with `[P]`, or purpose-built tools like RedWarden) parse HTTP requests and only forward traffic that matches the implant's Malleable C2 profile — correct URI, User-Agent, headers — while sending everything else a `302` to a real website. The filtering logic is derived directly from the C2 framework's traffic profile, so the two must stay in lock-step. Tools such as `cs2modrewrite` automate generating Apache/nginx rules from a Cobalt Strike Malleable C2 profile.
 
@@ -177,7 +176,7 @@ sudo certbot renew --dry-run
 ```
 
 ### 7. Apply OPSEC controls
-Layer defenses against blue-team analysis: validate headers, geofence to the target country, divert sandboxes, and rotate edges. Consider CDN/domain fronting (T1090.004) where supported.
+Layer defenses against blue-team analysis: validate headers, geofence to the target country, divert automated analysis, and rotate edges. Consider CDN/domain fronting (T1090.004) where supported.
 ```bash
 # Example: drop non-target geographies at the firewall with ipset/GeoIP,
 # require a custom auth header in the profile, and rotate the redirector

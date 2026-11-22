@@ -49,7 +49,6 @@ mitre_attack:
 - Evaluating the organization's security posture against specific threat actors (nation-state, ransomware groups, insider threats)
 - Meeting regulatory requirements for adversary simulation (TIBER-EU, CBEST, AASE, iCAST)
 
-**Do not use** without executive-level authorization and a detailed Rules of Engagement document, against systems where disruption could affect safety or critical operations, or as a replacement for basic vulnerability management (fix known vulnerabilities first).
 
 ## Prerequisites
 
@@ -61,7 +60,6 @@ mitre_attack:
 - MITRE ATT&CK matrix for mapping planned and executed techniques
 
 
-> **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Workflow
 
@@ -195,7 +193,7 @@ Convert red team findings into defensive improvements:
 - **Mean Time to Respond**: 4 hours (from detection to containment)
 
 ### Priority Recommendations
-1. Deploy email detonation sandboxing for macro-enabled document analysis
+1. Deploy email detonation analysis for macro-enabled document analysis
 2. Implement Kerberoasting detection via Windows Event ID 4769 monitoring
 3. Enhance PowerShell logging (Script Block Logging, Module Logging)
 4. Deploy memory-scanning EDR capability to detect process injection

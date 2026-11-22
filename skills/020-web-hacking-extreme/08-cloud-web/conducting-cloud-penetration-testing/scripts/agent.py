@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized penetration testing and lab environments only
 """Cloud Penetration Testing Agent - Enumerates and tests AWS IAM misconfigurations."""
 
 import json

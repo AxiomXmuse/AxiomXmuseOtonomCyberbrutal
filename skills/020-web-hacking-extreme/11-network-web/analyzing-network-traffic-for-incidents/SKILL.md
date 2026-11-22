@@ -39,7 +39,6 @@ nist_csf:
 - Lateral movement between systems needs to be traced through network connections
 - An IDS/IPS alert requires packet-level validation to confirm or dismiss
 
-**Do not use** for host-based forensic analysis (process execution, file system artifacts); use endpoint forensics tools instead.
 
 ## Prerequisites
 

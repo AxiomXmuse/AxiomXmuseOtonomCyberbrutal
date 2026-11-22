@@ -44,7 +44,6 @@ Use this skill when:
 - UEBA detects anomalous DNS query volumes from specific hosts
 - Malware analysis reveals DNS-over-HTTPS (DoH) or DNS tunneling capabilities
 
-**Do not use** for standard DNS troubleshooting or availability monitoring — this skill focuses on security-relevant DNS abuse detection.
 
 ## Prerequisites
 

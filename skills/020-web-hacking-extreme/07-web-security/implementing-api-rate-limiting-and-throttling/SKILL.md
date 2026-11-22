@@ -43,7 +43,6 @@ mitre_attack:
 - Defending against denial-of-service attacks at the application layer
 - Meeting compliance requirements that mandate API abuse prevention controls
 
-**Do not use** rate limiting as the sole defense against attacks. Combine with authentication, authorization, and WAF rules.
 
 ## Prerequisites
 

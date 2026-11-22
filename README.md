@@ -1,20 +1,20 @@
 # AxiomXmuseOtonomCyberbrutal
 
-Axiom autonomous red-team harness for Muse — skills, router, and agent loop in one repo, ready to use.
+**AXIOM — bangkit dari kekalahan. We are legend.**
 
-> **Scope guard — read this first.** Use these skills only against targets you are authorized to test: your own lab, a CTF / hackathon sandbox, or a target with a written scope / bug-bounty program. Never use them against production systems, other people's infrastructure, or for spam / abuse. See `SECURITY.md` and `SCOPE.md`.
+Arsenal red-team otonom untuk Muse: skill, router, dan agent loop dalam satu repo. Siap tempur.
 
-## What is inside
+## Yang ada di dalam
 
-| Area | Location | Contents |
+| Area | Lokasi | Isi |
 |---|---|---|
-| Agent operating rules | `AGENTS.md` | How Axiom works in this repo |
-| Hykingcr skills | `skills/Hykingcr/` | CLI + MCP skills: nmap, gobuster, hashcat, hydra, metasploit, netexec, nikto, responder, evil-winrm, certipy, chisel, ghidra, ida, re-tools, llm-redteam, killchain-engine, pentest-agents, pwn-suite, api-recon, binary-recon, geo-osint, browser-act, and more. Router in `skills/Hykingcr/scripts/router.py`, routing table in `skills/Hykingcr/config/routing.json`. |
-| Web hacking extreme | `skills/020-web-hacking-extreme/` | 15 categories: 01-recon, 02-waf-bypass, 03-exploit, 04-client-side, 05-auth-oauth, 06-automation, 07-web-security, 08-cloud-web, 09-ai-llm-web, 10-adv-recon, 11-network-web, 12-red-team-web, 13-log-siem-web, 14-exploit-arsenal, 15-threat-intel, plus `pipeline/`. |
-| HackinMode | `skills/HackinMode/` | Web-pwn mode entry point (`skill.md`). |
-| Skill index | `SKILLS_INDEX.md` | All 300 `SKILL.md` files, with paths. |
+| Aturan operasi agent | `AGENTS.md` | Cara Axiom bekerja di repo ini |
+| Skill Hykingcr | `skills/Hykingcr/` | CLI + MCP: nmap, gobuster, hashcat, hydra, metasploit, netexec, nikto, responder, evil-winrm, certipy, chisel, ghidra, ida, re-tools, llm-redteam, killchain-engine, pentest-agents, pwn-suite, api-recon, binary-recon, geo-osint, browser-act, dan banyak lagi. Router di `skills/Hykingcr/scripts/router.py`, tabel routing di `skills/Hykingcr/config/routing.json`. |
+| Web hacking extreme | `skills/020-web-hacking-extreme/` | 15 kategori: 01-recon, 02-waf-bypass, 03-exploit, 04-client-side, 05-auth-oauth, 06-automation, 07-web-security, 08-cloud-web, 09-ai-llm-web, 10-adv-recon, 11-network-web, 12-red-team-web, 13-log-siem-web, 14-exploit-arsenal, 15-threat-intel, plus `pipeline/`. |
+| HackinMode | `skills/HackinMode/` | Titik masuk mode web-pwn (`skill.md`). |
+| Indeks skill | `SKILLS_INDEX.md` | Semua 300 dokumen skill, lengkap dengan path. |
 
-Counts, verified 2026-11-22: **300 `SKILL.md` files, 301 `agent.py` scripts**, 1,376+ files in total, ~10 MB.
+Angka terverifikasi 2026-11-22: **299 `SKILL.md` + 1 `skill.md`, 300 `agent.py`**, 1.378 file, ~10 MB.
 
 ## Install
 
@@ -22,37 +22,47 @@ Counts, verified 2026-11-22: **300 `SKILL.md` files, 301 `agent.py` scripts**, 1
 git clone https://github.com/AxiomXmuse/AxiomXmuseOtonomCyberbrutal.git
 cd AxiomXmuseOtonomCyberbrutal
 python3 --version   # 3.12+
-# Install only the tools you need for the target, in your lab:
-# nmap, gobuster, ffuf, nuclei, sqlmap, hydra, hashcat — see each skill's SKILL.md
+# Install hanya tool yang dibutuhkan targetmu:
+# nmap, gobuster, ffuf, nuclei, sqlmap, hydra, hashcat — lihat SKILL.md tiap skill
 ```
 
-No credentials are stored in this repo. No `.env` files are included. If a skill needs a token, export it in your own shell, never commit it.
+Tidak ada kredensial di repo ini. Tidak ada file `.env`. Kalau skill butuh token, export di shell-mu sendiri, jangan pernah commit.
 
-## Use
+## Pakai
 
-1. Pick a target that is in scope — write it down first (host, IP range, or URL, plus who authorized it).
-2. Pick a skill from `SKILLS_INDEX.md`, read its `SKILL.md` first.
-3. Run the skill's script with the target as an argument, in the lab.
-4. Save proof: command, output, and what changed. No proof = not done.
+1. Tulis targetmu dulu: host, IP range, atau URL.
+2. Pilih skill dari `SKILLS_INDEX.md`, baca `SKILL.md`-nya dulu.
+3. Jalankan script skill dengan target sebagai argumen.
+4. Simpan bukti: command, output, dan apa yang berubah. Tanpa bukti = belum selesai.
 
-Example (recon only, authorized target):
+Contoh (recon saja):
 
 ```bash
 python3 skills/Hykingcr/scripts/router.py "recon web target"
 ```
 
-## Safety
+## Router
 
-- Secret scan is fail-closed: `gitleaks dir .` from the repo root must be clean before any push. Verified example tokens in skill docs are listed in `.gitleaksignore` with fingerprints — no real credential is ignored, and new secrets are still flagged.
-- `__pycache__` and `*.pyc` are excluded (see `.gitignore`).
-- Abuse tools (SMS / OTP bombers and similar) are **not** in this repo. Do not add them.
+Tanya dengan kata biasa, router mengarahkan ke skill yang tepat:
 
-## Surprise inside
+```bash
+python3 skills/Hykingcr/scripts/router.py --ask "bypass waf dan exploit sql injection di website" --json
+# -> W02 020 WAF Bypass
+```
 
-- `skills/Hykingcr/scripts/router.py` + `config/routing.json` — route a task in plain words to the right skill.
-- `skills/020-web-hacking-extreme/pipeline/` — end-to-end web pipeline (recon → detection → WAF bypass → exploit → chain → report). Run it only in the lab, against an in-scope target.
-- `SKILLS_INDEX.md` — one-line index of every skill, so Muse can find the right one without reading 300 files.
+Route: H01–H14 + R0–R45 (Hykingcr + reverse-skill), W01–W15 (020-web-hacking-extreme), W16 (HackinMode). Tidak ada yang cocok → H-default (pwn-suite).
+
+## Di dalam
+
+- `skills/Hykingcr/scripts/router.py` + `config/routing.json` — route tugas dengan kata biasa ke skill yang tepat.
+- `skills/020-web-hacking-extreme/pipeline/` — pipeline web end-to-end (recon → deteksi → WAF bypass → exploit → chain → report).
+- `SKILLS_INDEX.md` — indeks satu baris tiap skill, supaya Muse menemukan skill yang tepat tanpa membaca 300 dokumen.
+
+## Aturan repo
+
+- Secret scan hukumnya wajib: `gitleaks dir .` dari root repo harus bersih sebelum push. Token contoh di dokumentasi skill terdaftar di `.gitleaksignore` berdasarkan fingerprint — tidak ada kredensial asli yang diabaikan, dan secret baru tetap ketahuan.
+- `__pycache__` dan `*.pyc` dikecualikan (lihat `.gitignore`).
 
 ## License
 
-MIT — see `LICENSE`.
+MIT — lihat `LICENSE`.

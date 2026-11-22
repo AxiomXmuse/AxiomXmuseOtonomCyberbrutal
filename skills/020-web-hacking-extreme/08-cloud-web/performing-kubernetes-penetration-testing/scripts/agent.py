@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agent for performing Kubernetes penetration testing — authorized testing only."""
+"""Agent for performing Kubernetes penetration testing."""
 
 import json
 import argparse

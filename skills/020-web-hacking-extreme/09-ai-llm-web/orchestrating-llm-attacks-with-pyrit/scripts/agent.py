@@ -7,7 +7,6 @@ multi-turn attack strategy (RedTeaming, Crescendo, or TAP) against an
 OpenAI-compatible target, using an adversarial chat model and an LLM-as-judge
 scorer, then exports the conversation as evidence.
 
-Use only against models you are authorized to test.
 
 Example:
   export OPENAI_API_KEY=sk-...

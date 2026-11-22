@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Detecting Model Extraction Attacks
 
-> **Authorized Use Only:** The extraction, inversion, and membership-inference techniques described here are intended for defenders testing their own models and for red teams operating under written authorization. Querying a third-party model to clone it, reconstruct its training data, or infer membership without permission may violate terms of service, copyright, and privacy law.
 
 ## Overview
 

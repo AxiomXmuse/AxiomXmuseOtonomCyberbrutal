@@ -42,7 +42,6 @@ mitre_attack:
 - Integrating Postman with OWASP ZAP proxy for combined manual and automated security testing
 - Establishing a baseline security test collection for new API endpoints before deployment
 
-**Do not use** against production APIs without authorization. Postman security testing involves sending potentially malicious payloads.
 
 ## Prerequisites
 

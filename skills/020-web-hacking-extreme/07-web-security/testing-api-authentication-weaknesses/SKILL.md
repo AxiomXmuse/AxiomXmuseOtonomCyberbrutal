@@ -43,7 +43,6 @@ mitre_attack:
 - Testing API key generation, storage, and rotation mechanisms for predictability or leakage
 - Validating session management including token expiration, revocation, and refresh token security
 
-**Do not use** without written authorization. Authentication testing involves attempting to bypass security controls.
 
 ## Prerequisites
 

@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-DNS Enumeration and Zone Transfer Agent — AUTHORIZED TESTING ONLY
+DNS Enumeration and Zone Transfer Agent
 Performs DNS reconnaissance including record enumeration, zone transfer
 attempts, and subdomain discovery using dnspython.
 
-WARNING: Only use with explicit written authorization for the target domain.
 """
 
 import json
@@ -175,7 +174,7 @@ def generate_report(
 ) -> str:
     """Generate DNS enumeration report."""
     lines = [
-        "DNS ENUMERATION AND ZONE TRANSFER REPORT — AUTHORIZED TESTING ONLY",
+        "DNS ENUMERATION AND ZONE TRANSFER REPORT",
         "=" * 65,
         f"Target Domain: {domain}",
         f"Date: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
@@ -218,7 +217,7 @@ def generate_report(
 
 
 if __name__ == "__main__":
-    print("[!] DNS ENUMERATION — AUTHORIZED TESTING ONLY\n")
+    print("[!] DNS ENUMERATION\n")
 
     if len(sys.argv) < 2:
         print(f"Usage: {sys.argv[0]} <target_domain>")

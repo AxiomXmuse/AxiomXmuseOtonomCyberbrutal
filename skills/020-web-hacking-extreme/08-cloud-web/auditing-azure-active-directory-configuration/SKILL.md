@@ -41,7 +41,6 @@ mitre_attack:
 - When investigating suspicious sign-in activity or compromised accounts
 - When validating conditional access policies adequately protect against identity-based attacks
 
-**Do not use** for on-premises Active Directory auditing (use PingCastle or BloodHound AD), for Azure resource-level RBAC auditing without identity context, or for real-time threat detection (use Microsoft Defender for Identity).
 
 ## Prerequisites
 

@@ -43,7 +43,6 @@ mitre_attack:
 - Finding undocumented API endpoints exposed through mobile applications, SPAs, or microservices
 - Building an API inventory for compliance requirements (PCI-DSS, SOC2, GDPR)
 
-**Do not use** without written authorization. API discovery involves scanning network infrastructure and analyzing traffic.
 
 ## Prerequisites
 

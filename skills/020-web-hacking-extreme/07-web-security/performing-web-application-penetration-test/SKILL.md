@@ -41,7 +41,6 @@ mitre_attack:
 - Assessing third-party web applications before integration into the organization's environment
 - Evaluating custom-developed web applications where automated scanning alone is insufficient
 
-**Do not use** against web applications without written authorization, against production systems during peak traffic hours without explicit approval, or for denial-of-service testing of web infrastructure.
 
 ## Prerequisites
 

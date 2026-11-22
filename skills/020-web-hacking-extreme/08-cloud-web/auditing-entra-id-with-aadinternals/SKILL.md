@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Auditing Entra ID with AADInternals
 
-> **Legal Notice:** This skill is for authorized security testing, red-team engagements, and educational purposes only. AADInternals can forge SAML tokens and install federation backdoors that grant persistent impersonation of any tenant user. Use only against tenants you own or have explicit written authorization (rules of engagement) to test. Unauthorized use violates the Computer Fraud and Abuse Act and equivalent laws.
 
 ## Overview
 

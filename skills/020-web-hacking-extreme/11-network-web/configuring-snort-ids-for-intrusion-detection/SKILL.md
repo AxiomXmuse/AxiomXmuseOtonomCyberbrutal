@@ -38,7 +38,6 @@ mitre_attack:
 - Integrating Snort alerts with SIEM platforms for centralized security monitoring
 - Validating network security controls by generating test traffic and confirming detection
 
-**Do not use** as a replacement for endpoint detection, for monitoring encrypted traffic without TLS inspection, or as the sole security control without complementary defenses.
 
 ## Prerequisites
 
@@ -368,7 +367,7 @@ snort -c /usr/local/etc/snort/snort.lua --daq-dir /usr/local/lib/daq -T 2>&1 | g
 
 ### Scenario: Deploying Snort IDS at a Network Perimeter for Compliance
 
-**Context**: A healthcare organization needs to deploy network IDS to meet HIPAA technical safeguard requirements. The IDS must monitor traffic between the DMZ and internal network, detect common attack patterns, and forward alerts to the existing Splunk SIEM. The network carries approximately 500 Mbps of traffic during peak hours.
+**Context**: A healthcare organization needs to deploy network IDS to meet HIPAA technical control requirements. The IDS must monitor traffic between the DMZ and internal network, detect common attack patterns, and forward alerts to the existing Splunk SIEM. The network carries approximately 500 Mbps of traffic during peak hours.
 
 **Approach**:
 1. Install Snort 3 on a dedicated sensor with dual NICs -- one for monitoring (span port from core switch) and one for management

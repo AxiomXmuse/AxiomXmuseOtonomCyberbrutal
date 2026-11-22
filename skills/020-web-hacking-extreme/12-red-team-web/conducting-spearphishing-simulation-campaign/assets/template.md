@@ -91,7 +91,7 @@
 | DMARC Enforcement | Passed/Blocked | |
 | URL Rewriting | Active/Bypassed | |
 | Attachment Scanning | Active/Bypassed | |
-| Sandboxing | Active/Bypassed | |
+| Detonation | Active/Bypassed | |
 
 ### 6.2 Endpoint Protection
 | Control | Status | Notes |

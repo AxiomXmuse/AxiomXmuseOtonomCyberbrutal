@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized testing only
 """Postman API security testing orchestration agent using Newman CLI."""
 
 import json

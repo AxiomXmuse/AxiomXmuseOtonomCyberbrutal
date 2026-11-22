@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-# For authorized penetration testing and educational environments only.
-# Container escape grants full host compromise. Run only against systems you
-# own or are explicitly authorized in writing to test.
 """Container escape posture assessor.
 
 Enumerates the privilege posture of the *current* container and flags which
@@ -149,7 +146,7 @@ def assess():
 
 def main():
     ap = argparse.ArgumentParser(
-        description="Assess container escape posture (authorized testing only)")
+        description="Assess container escape posture")
     ap.add_argument("-o", "--output", help="write JSON report to file")
     ap.add_argument("--quiet", action="store_true", help="JSON only, no banner")
     args = ap.parse_args()

@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-AWS Penetration Testing with Pacu Agent — AUTHORIZED TESTING ONLY
+AWS Penetration Testing with Pacu Agent
 Automates Pacu module execution for AWS security assessment including
 IAM enumeration, privilege escalation scanning, and credential testing.
 
-WARNING: Only use with explicit written authorization on approved AWS accounts.
 """
 
 import json
@@ -160,7 +159,7 @@ def test_credential_access(region: str = "us-east-1") -> dict:
 def generate_report(iam_data: dict, escalation: list, access: dict, pacu_results: list) -> str:
     """Generate Pacu penetration testing report."""
     lines = [
-        "AWS PENETRATION TESTING (PACU) REPORT — AUTHORIZED TESTING ONLY",
+        "AWS PENETRATION TESTING (PACU) REPORT",
         "=" * 65,
         f"Account: {iam_data.get('identity', {}).get('account', 'N/A')}",
         f"Identity: {iam_data.get('identity', {}).get('arn', 'N/A')}",
@@ -193,7 +192,7 @@ def generate_report(iam_data: dict, escalation: list, access: dict, pacu_results
 
 
 if __name__ == "__main__":
-    print("[!] AWS PENTEST WITH PACU — AUTHORIZED TESTING ONLY\n")
+    print("[!] AWS PENTEST WITH PACU\n")
 
     region = sys.argv[1] if len(sys.argv) > 1 else "us-east-1"
     session_name = sys.argv[2] if len(sys.argv) > 2 else "pentest"

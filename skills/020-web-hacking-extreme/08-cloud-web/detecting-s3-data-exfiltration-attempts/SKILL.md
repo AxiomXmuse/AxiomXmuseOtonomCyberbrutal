@@ -41,7 +41,6 @@ mitre_attack:
 - When responding to Macie alerts about sensitive data being accessed or moved
 - When compliance requires monitoring and logging of all access to classified data stores
 
-**Do not use** for preventing data exfiltration (use S3 bucket policies, VPC endpoints, and SCPs), for data classification (use Amazon Macie discovery jobs), or for network-level exfiltration detection (use VPC Flow Logs with network analysis tools).
 
 ## Prerequisites
 

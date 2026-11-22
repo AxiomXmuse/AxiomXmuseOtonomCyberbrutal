@@ -44,7 +44,6 @@ mitre_attack:
 - Testing if API gateway rate limiting can be bypassed through header manipulation or IP rotation
 - Validating that rate limits protect against resource exhaustion and denial-of-service conditions
 
-**Do not use** without written authorization. Rate limit testing involves sending high volumes of requests that may impact service availability.
 
 ## Prerequisites
 

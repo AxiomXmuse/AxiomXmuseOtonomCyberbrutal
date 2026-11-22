@@ -75,7 +75,6 @@ mitre_f3:
 - Analyzing sign-in logs for token replay indicators
 - Implementing Token Protection conditional access policies to bind tokens to devices
 
-**Do not use** for on-premises Kerberos ticket attacks (pass-the-ticket, golden ticket); use Active Directory-specific investigation techniques for those scenarios.
 
 ## Prerequisites
 

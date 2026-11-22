@@ -23,7 +23,6 @@ mitre_attack:
 ---
 # Orchestrating LLM Attacks with PyRIT
 
-> **Legal and Authorized-Use Notice:** PyRIT generates adversarial and potentially harmful prompts to test AI systems. Use it only against models and endpoints you own or are explicitly authorized to assess. Multi-turn orchestrators consume large numbers of tokens against both the target and the adversarial/scoring models; account for cost and terms of service. Unauthorized use is prohibited.
 
 ## Overview
 

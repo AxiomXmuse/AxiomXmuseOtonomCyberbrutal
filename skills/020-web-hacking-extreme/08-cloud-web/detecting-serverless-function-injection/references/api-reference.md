@@ -2,7 +2,7 @@
 
 ## Overview
 
-Detects code injection vulnerabilities in AWS Lambda functions by scanning function code for dangerous sinks (eval, exec, os.system, child_process.exec), auditing Lambda layers for external account dependencies, identifying IAM privilege escalation paths through overprivileged execution roles, and monitoring CloudTrail for suspicious function modifications. For authorized security assessments only.
+Detects code injection vulnerabilities in AWS Lambda functions by scanning function code for dangerous sinks (eval, exec, os.system, child_process.exec), auditing Lambda layers for external account dependencies, identifying IAM privilege escalation paths through overprivileged execution roles, and monitoring CloudTrail for suspicious function modifications.
 
 ## Dependencies
 

@@ -43,7 +43,6 @@ mitre_attack:
 - Testing scope escalation where clients request more permissions than authorized
 - Assessing OpenID Connect implementations for ID token validation and nonce usage
 
-**Do not use** without written authorization. OAuth testing may result in token theft or unauthorized access.
 
 ## Prerequisites
 

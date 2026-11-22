@@ -42,7 +42,6 @@ mitre_attack:
 - When compliance requirements mandate a WAF for PCI-DSS or similar standards
 - When tuning WAF rules to reduce false positives blocking legitimate application traffic
 
-**Do not use** for network-level DDoS protection (use AWS Shield or Azure DDoS Protection), for API authentication design (see managing-cloud-identity-with-okta), or for application code-level security fixes (WAF is a compensating control, not a replacement for secure code).
 
 ## Prerequisites
 

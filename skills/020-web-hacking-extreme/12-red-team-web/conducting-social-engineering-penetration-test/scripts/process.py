@@ -157,7 +157,7 @@ def generate_report(stats: dict, dept_analysis: dict, output_dir: Path) -> str:
         f.write("## Recommendations\n\n")
         f.write("1. Deploy phishing-resistant MFA (FIDO2/WebAuthn)\n")
         f.write("2. Implement targeted training for high-risk departments\n")
-        f.write("3. Deploy email security gateway with URL sandboxing\n")
+        f.write("3. Deploy email security gateway with URL detonation\n")
         f.write("4. Establish phishing report button and reward program\n")
         f.write("5. Conduct quarterly phishing simulations\n")
 

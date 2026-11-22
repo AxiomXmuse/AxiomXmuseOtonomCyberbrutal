@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized testing in lab/CTF environments only
 """Phishing simulation campaign agent using requests to interact with GoPhish API."""
 
 import argparse

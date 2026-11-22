@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Assessing Vector and Embedding Weaknesses
 
-> **Authorized use only:** These tests interact with vector stores and embedding models in RAG systems you own or are authorized to assess. Embedding inversion and cross-tenant probing against systems you do not control may expose third-party data and is prohibited without authorization.
 
 ## Overview
 

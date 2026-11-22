@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Operating Sliver C2
 
-> **Legal Notice:** This skill is for authorized security testing, red-team engagements, and educational purposes only. Operating a command-and-control framework against systems you do not own or lack explicit written authorization to test is illegal and may violate computer fraud, wiretap, and abuse statutes. Always work within a signed rules-of-engagement document.
 
 ## Overview
 

@@ -124,7 +124,7 @@ chmod +x gophish
 
 ### Step 4: Create Landing Page
 - Clone legitimate login page using GoPhish's import feature
-- Enable credential capture (for authorized testing only)
+- Enable credential capture 
 - Configure redirect to training page after submission
 - Add SSL certificate for HTTPS
 

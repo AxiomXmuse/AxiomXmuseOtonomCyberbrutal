@@ -23,7 +23,6 @@ mitre_attack:
 ---
 # Red-Teaming LLMs with garak
 
-> **Legal and Authorized-Use Notice:** This skill is for authorized AI security testing and educational purposes only. Probe only models, API keys, and endpoints you own or have explicit written permission to test. Automated probing of third-party LLM APIs may violate their terms of service and consume billable tokens. Unauthorized probing of systems you do not control may be illegal.
 
 ## Overview
 

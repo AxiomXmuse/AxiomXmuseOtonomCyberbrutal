@@ -49,7 +49,6 @@ Use this skill when:
 - Incident responders need forensic timelines of Windows endpoint or domain controller activity
 - Periodic threat hunting targets Windows-specific ATT&CK techniques
 
-**Do not use** for Linux/macOS endpoint analysis or network-only investigations.
 
 ## Prerequisites
 

@@ -64,7 +64,6 @@ mitre_f3:
 - When monitoring container workloads for unauthorized process execution
 - When establishing proactive detection controls against resource hijacking attacks
 
-**Do not use** for legitimate cryptocurrency mining operations, for non-cloud mining detection on physical hardware, or for general malware analysis unrelated to mining activity.
 
 ## Prerequisites
 

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Havoc C2 Infrastructure Builder Agent - Manages Havoc C2 framework deployment and listener setup.
 
-# For authorized penetration testing and lab environments only.
 """
 
 import json
@@ -133,7 +132,7 @@ def generate_report(listeners, agents, assessment):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Havoc C2 Infrastructure Builder (authorized testing only)")
+    parser = argparse.ArgumentParser(description="Havoc C2 Infrastructure Builder")
     parser.add_argument("--teamserver", required=True, help="Teamserver address (host:port)")
     parser.add_argument("--token", required=True, help="API authentication token")
     parser.add_argument("--action", choices=["status", "create-listener", "generate-payload", "full-report"],

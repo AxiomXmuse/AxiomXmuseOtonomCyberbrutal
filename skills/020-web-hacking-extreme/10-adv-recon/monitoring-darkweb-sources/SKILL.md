@@ -78,7 +78,6 @@ Use this skill when:
 - Investigating a reported data breach claim found on a ransomware leak site or paste site
 - Enriching an incident investigation with context about stolen credentials or planned attacks
 
-**Do not use** this skill without proper operational security measures — dark web browsing without isolation exposes analyst infrastructure to adversary counter-intelligence.
 
 ## Prerequisites
 

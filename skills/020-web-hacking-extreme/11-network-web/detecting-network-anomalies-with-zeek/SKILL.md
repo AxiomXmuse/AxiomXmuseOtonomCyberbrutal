@@ -37,7 +37,6 @@ mitre_attack:
 - Performing retrospective analysis on network metadata to investigate security incidents
 - Complementing IDS solutions with protocol-level metadata analysis that signature-based tools may miss
 
-**Do not use** as a replacement for inline IDS/IPS that can actively block traffic, for monitoring encrypted payloads without TLS inspection, or on endpoints where host-based agents are more appropriate.
 
 ## Prerequisites
 

@@ -63,7 +63,6 @@ mitre_attack:
 - Validating that LLM responses conform to expected schemas before they reach downstream systems or users
 - Protecting RAG pipelines from indirect prompt injection in retrieved documents
 
-**Do not use** as a replacement for proper authentication, authorization, and network security controls. Guardrails are a defense-in-depth layer, not a perimeter defense. Not suitable for real-time content moderation of user-to-user communication without LLM involvement.
 
 ## Prerequisites
 

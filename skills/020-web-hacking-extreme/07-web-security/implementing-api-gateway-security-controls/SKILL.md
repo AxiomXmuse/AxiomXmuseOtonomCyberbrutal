@@ -43,7 +43,6 @@ mitre_attack:
 - Setting up TLS termination, mutual TLS, and certificate management for API traffic
 - Integrating WAF rules with the API gateway to block injection, XSS, and known attack patterns
 
-**Do not use** as the sole security layer. API gateways provide defense in depth but backend services must also validate authorization and input.
 
 ## Prerequisites
 

@@ -41,7 +41,6 @@ mitre_attack:
 - When testing detection capabilities of GuardDuty, Security Hub, and custom alerting
 - When building red team exercises against AWS cloud infrastructure
 
-**Do not use** for unauthorized testing of any AWS account, for testing AWS infrastructure itself (covered by shared responsibility), for DDoS or volumetric attacks without AWS approval, or for production account testing without explicit authorization and breakglass procedures.
 
 ## Prerequisites
 

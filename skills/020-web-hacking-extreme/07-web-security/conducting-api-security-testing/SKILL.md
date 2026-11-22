@@ -42,7 +42,6 @@ mitre_attack:
 - Testing third-party API integrations for data exposure and insecure configurations
 - Evaluating GraphQL APIs for introspection disclosure, query complexity attacks, and authorization bypasses
 
-**Do not use** against APIs without written authorization, for load testing or denial-of-service testing unless explicitly scoped, or for testing production APIs that process real financial transactions without safeguards.
 
 ## Prerequisites
 

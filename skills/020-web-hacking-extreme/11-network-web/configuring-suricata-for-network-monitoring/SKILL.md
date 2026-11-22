@@ -38,7 +38,6 @@ mitre_attack:
 - Running in inline (IPS) mode to actively block malicious traffic at network choke points
 - Combining signature-based detection with protocol anomaly detection and file extraction
 
-**Do not use** as a standalone security solution without complementary controls, for encrypted traffic inspection without TLS decryption capabilities, or on systems with insufficient CPU/memory for the expected traffic volume.
 
 ## Prerequisites
 

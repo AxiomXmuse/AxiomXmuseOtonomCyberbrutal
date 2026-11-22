@@ -52,7 +52,7 @@
 
 ### Email Security Controls
 - Email gateway filtering
-- URL rewriting and sandboxing
+- URL rewriting and detonation
 - Attachment analysis
 - Domain reputation scoring
 

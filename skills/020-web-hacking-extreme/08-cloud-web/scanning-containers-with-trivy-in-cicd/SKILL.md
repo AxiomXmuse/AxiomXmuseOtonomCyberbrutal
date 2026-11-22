@@ -42,7 +42,6 @@ mitre_attack:
 - When scanning IaC files (Dockerfiles, Kubernetes manifests) alongside container image scanning
 - When needing a single tool to scan OS packages, language-specific dependencies, and misconfigurations
 
-**Do not use** for runtime container security monitoring (use Falco), for scanning running containers in production (use runtime agents), or when only scanning application source code without containerization (use SAST tools).
 
 ## Prerequisites
 

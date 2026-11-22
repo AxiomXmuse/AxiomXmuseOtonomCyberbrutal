@@ -134,7 +134,7 @@ def generate_detection_rules(phishlet_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Evilginx3 Phishlet Analysis Agent (Authorized Testing Only)")
+    parser = argparse.ArgumentParser(description="Evilginx3 Phishlet Analysis Agent")
     sub = parser.add_subparsers(dest="command")
     p = sub.add_parser("parse", help="Parse phishlet YAML")
     p.add_argument("--phishlet", required=True)

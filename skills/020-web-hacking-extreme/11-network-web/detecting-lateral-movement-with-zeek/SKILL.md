@@ -47,7 +47,6 @@ of staging or exfiltration between hosts.
 - Building alerting rules for internal network anomalies in a Zeek-based NSMP deployment
 - Performing post-incident timeline reconstruction using Zeek logs as a network-level evidence source
 
-**Do not use** as a standalone detection mechanism. Zeek sees network traffic only; combine with endpoint telemetry (Sysmon, EDR) for full visibility. Encrypted SMB3 traffic may limit Zeek's visibility into file-level details.
 
 ## Prerequisites
 

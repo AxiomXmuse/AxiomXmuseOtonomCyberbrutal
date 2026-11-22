@@ -48,7 +48,6 @@ mitre_attack:
 - Testing detection capabilities of the SOC and EDR tools against Active Directory-specific TTPs
 - Evaluating the effectiveness of tiered administration models and privileged access workstations
 
-**Do not use** without explicit written authorization from the domain owner, against production domain controllers during business hours unless approved, or for testing that could cause account lockouts affecting real users without prior coordination.
 
 ## Prerequisites
 

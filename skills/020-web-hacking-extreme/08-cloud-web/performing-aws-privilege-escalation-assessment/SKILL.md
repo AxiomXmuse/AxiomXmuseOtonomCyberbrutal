@@ -40,7 +40,6 @@ mitre_attack:
 - When building security reviews for IAM role and policy changes in CI/CD pipelines
 - When evaluating cross-account trust relationships for privilege escalation risks
 
-**Do not use** for unauthorized testing against AWS accounts, for assessing non-IAM attack vectors (SSRF, application vulnerabilities), or as a substitute for comprehensive cloud penetration testing. Always obtain written authorization before testing.
 
 ## Prerequisites
 

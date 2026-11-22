@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized security assessments and defensive monitoring only
 """Serverless Function Injection Detection Agent - Scans Lambda functions for injection vulnerabilities, layer hijacking, and IAM escalation paths."""
 
 import argparse

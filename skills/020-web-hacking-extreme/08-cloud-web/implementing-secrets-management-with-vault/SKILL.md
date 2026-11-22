@@ -41,7 +41,6 @@ mitre_attack:
 - When compliance requirements mandate centralized credential management with audit logging
 - When CI/CD pipelines contain hardcoded secrets that represent supply chain risk
 
-**Do not use** for AWS-only environments where AWS Secrets Manager suffices without multi-cloud requirements, for application-level encryption logic (though Vault Transit can help), or for identity federation (see managing-cloud-identity-with-okta).
 
 ## Prerequisites
 

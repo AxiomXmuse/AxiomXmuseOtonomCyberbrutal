@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized testing only
 """API rate limiting bypass testing agent."""
 
 import json

@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Attacking OAuth with Device-Code Phishing
 
-> **Legal Notice:** This skill is for authorized security testing, red-team engagements, and educational purposes only. Device-code and consent-grant phishing manipulate real users into authorizing attacker-controlled access to corporate identities. Execute only against tenants you own or have explicit written authorization (rules of engagement) to test. Unauthorized use violates the Computer Fraud and Abuse Act and equivalent laws worldwide.
 
 ## Overview
 

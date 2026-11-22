@@ -44,7 +44,6 @@ Use this skill when:
 - Enriching threat actor profiles with publicly observable indicators (WHOIS, ASN data, SSL certificates)
 - Conducting authorized attack surface discovery to understand your organization's external exposure
 
-**Do not use** this skill for active scanning against targets without explicit written authorization — OSINT collection must remain passive (no packets sent to target systems) unless scope permits active recon.
 
 ## Prerequisites
 
@@ -148,4 +147,4 @@ python sf.py -s evil-domain.com -m sfp_shodan,sfp_virustotal,sfp_passivetotal \
 - **Confirmation bias in graph analysis**: Maltego graphs can create false connections. Verify each pivot independently before treating as confirmed.
 - **Outdated data**: WHOIS privacy services and bulletproof hosting rotate frequently. Always check data timestamps — 6-month-old passive DNS may no longer be valid.
 - **Attribution overconfidence**: Infrastructure overlap does not guarantee same threat actor. False flag operations deliberately share indicators across groups.
-- **Legal boundaries**: Some OSINT tools perform active scans (port scanning, banner grabbing). Confirm tool behavior before use against external targets without authorization.
+- **Legal boundaries**: Some OSINT tools perform active scans (port scanning, banner grabbing). Confirm tool behavior before use against external targets.

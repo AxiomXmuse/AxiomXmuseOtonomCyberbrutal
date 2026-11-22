@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-AWS Privilege Escalation Assessment Agent — AUTHORIZED TESTING ONLY
+AWS Privilege Escalation Assessment Agent
 Assesses AWS IAM configurations for privilege escalation paths using boto3
 and enumerates dangerous policy combinations.
 
-WARNING: Only use with explicit written authorization on approved AWS accounts.
 """
 
 import json
@@ -153,7 +152,7 @@ def check_role_chaining(roles: list[dict], account_id: str) -> list[dict]:
 def generate_report(identity: dict, users: list, escalation: list, chains: list) -> str:
     """Generate privilege escalation assessment report."""
     lines = [
-        "AWS PRIVILEGE ESCALATION ASSESSMENT — AUTHORIZED TESTING ONLY",
+        "AWS PRIVILEGE ESCALATION ASSESSMENT",
         "=" * 65,
         f"Account: {identity['account']}",
         f"Assessed As: {identity['arn']}",
@@ -180,7 +179,7 @@ def generate_report(identity: dict, users: list, escalation: list, chains: list)
 
 
 if __name__ == "__main__":
-    print("[!] AWS PRIVILEGE ESCALATION ASSESSMENT — AUTHORIZED TESTING ONLY\n")
+    print("[!] AWS PRIVILEGE ESCALATION ASSESSMENT\n")
 
     identity = get_caller_identity()
     print(f"[*] Account: {identity['account']}, Identity: {identity['arn']}")

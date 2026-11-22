@@ -49,7 +49,6 @@ mitre_attack:
 - When performing large-scale threat hunting across petabytes of security telemetry
 - When integrating threat intelligence feeds with cloud security log analysis
 
-**Do not use** for AWS-only environments where Security Hub and GuardDuty suffice, for endpoint detection requiring EDR capabilities (use Defender for Endpoint), or for compliance posture monitoring (see building-cloud-security-posture-management).
 
 ## Prerequisites
 

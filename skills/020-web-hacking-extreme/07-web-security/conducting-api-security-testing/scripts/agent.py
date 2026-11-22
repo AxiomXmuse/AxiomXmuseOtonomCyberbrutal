@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# For authorized penetration testing and lab environments only
 """API Security Testing Agent - Tests REST/GraphQL APIs for OWASP API Top 10 vulnerabilities."""
 
 import json

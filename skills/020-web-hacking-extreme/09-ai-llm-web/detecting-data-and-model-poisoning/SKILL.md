@@ -23,7 +23,6 @@ mitre_attack:
 ---
 # Detecting Data and Model Poisoning
 
-> **Authorized-use-only notice:** This skill includes routines that craft poisoned samples and backdoor triggers for *defensive validation*. Generate and use poisoned data and backdoored models only in isolated test environments you control. Never deploy a backdoored model or distribute poisoned datasets.
 
 ## Overview
 

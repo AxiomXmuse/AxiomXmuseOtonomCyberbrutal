@@ -23,7 +23,6 @@ mitre_attack:
 ---
 # Emulating Cloud Attacks with Stratus Red Team
 
-> **Legal Notice:** This skill is for authorized security testing and detection-validation purposes only. Stratus Red Team spins up and modifies real cloud infrastructure in the account whose credentials you supply. Only run it in accounts you own or are explicitly authorized to test. Always `cleanup` afterwards to avoid orphaned, billable, or insecure resources. Unauthorized use against systems you do not control is illegal.
 
 ## Overview
 

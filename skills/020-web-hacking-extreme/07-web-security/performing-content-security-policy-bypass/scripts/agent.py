@@ -6,8 +6,6 @@ misconfigurations, overly permissive directives, and potential bypass
 vectors. Tests for unsafe-inline, unsafe-eval, wildcard sources,
 missing directives, and known CSP bypass patterns.
 
-AUTHORIZED TESTING ONLY: Only use against targets you have explicit
-written permission to test.
 """
 import argparse
 import json
@@ -241,7 +239,7 @@ def format_summary(url, directives, findings, csp_string):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="CSP analysis and bypass testing agent (authorized testing only)"
+        description="CSP analysis and bypass testing agent"
     )
     parser.add_argument("--url", required=True, help="Target URL to fetch CSP from")
     parser.add_argument("--csp-string", help="Analyze a CSP string directly instead of fetching")

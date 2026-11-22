@@ -49,7 +49,6 @@ Use this skill when:
 - Existing vendor-specific rules need standardization into a shareable format
 - The team adopts Sigma as a detection-as-code standard in CI/CD pipelines
 
-**Do not use** for real-time streaming detection (Sigma is for batch/scheduled searches) or when the target SIEM has native detection features that Sigma cannot express (e.g., Splunk RBA risk scoring).
 
 ## Prerequisites
 

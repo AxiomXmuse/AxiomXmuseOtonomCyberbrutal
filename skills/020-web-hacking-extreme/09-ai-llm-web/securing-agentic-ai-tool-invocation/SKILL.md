@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Securing Agentic AI Tool Invocation
 
-> **Authorized-use-only notice:** This is a defensive skill. The controls below govern how an AI agent invokes tools/plugins. Deploy them on systems you own or operate. Test guardrail bypasses only against your own agent in a non-production environment.
 
 ## Overview
 

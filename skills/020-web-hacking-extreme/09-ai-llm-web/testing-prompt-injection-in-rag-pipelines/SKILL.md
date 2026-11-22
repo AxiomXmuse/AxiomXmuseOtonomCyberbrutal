@@ -22,7 +22,6 @@ mitre_attack:
 ---
 # Testing Prompt Injection in RAG Pipelines
 
-> **Authorized-use-only notice:** This skill describes offensive testing techniques against Retrieval-Augmented Generation (RAG) systems. Run these probes only against applications you own or have explicit written authorization to test. Adversarial inputs that exfiltrate documents or hijack a model can cause real harm to production systems and downstream users. Always test in a non-production environment first and follow your engagement rules of engagement (RoE).
 
 ## Overview
 
@@ -33,7 +32,7 @@ Beyond text-level injection, RAG pipelines are vulnerable at the *embedding* lay
 ## When to Use
 
 - When security-testing a RAG chatbot, internal knowledge assistant, or document-Q&A product before or after release.
-- When validating that retrieval guardrails (input/output filtering, context sandboxing) actually block injected instructions.
+- When validating that retrieval guardrails (input/output filtering, context isolation) actually block injected instructions.
 - During an AI red-team engagement scoped to test the LLM application layer (OWASP LLM Top 10 coverage).
 - When you ingest user-controllable or third-party content into a vector store and need to prove the blast radius of a poisoned document.
 - As a regression gate in CI/CD: re-run the probe suite on every prompt-template or retriever change.

@@ -40,7 +40,6 @@ mitre_attack:
 - When testing APIs (REST/GraphQL) for authentication, authorization, and injection flaws
 - When establishing continuous DAST scanning in staging environments before production deployment
 
-**Do not use** for scanning source code (use SAST), for scanning dependencies (use SCA), or for infrastructure configuration scanning (use IaC scanning tools).
 
 ## Prerequisites
 
